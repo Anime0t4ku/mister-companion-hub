@@ -28,18 +28,6 @@ GitHub Actions generates:
 
 MiSTer Companion should normally consume `generated/catalog_full.json` and use `generated/manifest.json` for cache checks.
 
-
-## Online and Offline Mode
-
-The Hub catalog does not define Online Mode or Offline Mode support per item. Install Center entries are expected to be usable from the app where possible, but the final action availability is decided by MiSTer Companion's local backend handlers. If a script or handler is not available in Offline Mode, that should be handled inside MiSTer Companion, not in this repository.
-
-## Safety model
-
-The GitHub catalog may define presentation metadata and safe download metadata for supported generic item types.
-
-The catalog must not define raw SSH commands, shell commands, Python code, or arbitrary post-install scripts. Scripts, cores, extras, and other complex entries must use a trusted handler that already exists inside MiSTer Companion.
-
-
 ## Images
 
 Install Center entries do not use individual icons. The visual system is based on thumbnails and optional gallery images.
