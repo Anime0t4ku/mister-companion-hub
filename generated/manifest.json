@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-23T12:17:38.414841Z",
+  "generated_at": "2026-06-23T12:20:38.275579Z",
   "catalog_version": "2026.06.23",
   "files": [
     {
@@ -25,8 +25,8 @@
     },
     {
       "path": "generated/manifest.json",
-      "sha256": "2f3cb0376d3b39da4993c23f64decfa319f887a00f8e9d4565095c76f599dca1",
-      "size": 1252
+      "sha256": "593118c5af87d5b8575cb06f7d29bf289b351d32ad7da24b7baae294c98eded2",
+      "size": 1251
     },
     {
       "path": "generated/wallpaper_sources.json",
