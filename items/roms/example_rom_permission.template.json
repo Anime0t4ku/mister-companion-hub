@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "example_rom_permission",
+  "category": "roms",
+  "type": "rom",
+  "handler": "rom_install",
+  "name": "Example Permission ROM",
+  "author": "Developer Name",
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Example ROM entry for a homebrew game where the developer gave direct permission for distribution through MiSTer Companion.",
+  "visibility": "dev_only",
+  "sort_order": 10,
+  "official_url": "https://example.com/example_permission_rom",
+  "version": "1.0.0",
+  "system": "SNES",
+  "genres": [
+    "Homebrew"
+  ],
+  "redistribution_status": "permission",
+  "permission_note": "Developer gave permission for distribution through MiSTer Companion.",
+  "permission_date": "2026-06-23",
+  "source_url": "https://example.com/example_permission_rom",
+  "redistribution_notes": "Keep a copy of the permission message outside the public catalog for your records.",
+  "default_install_path": "/games/SNES",
+  "allow_custom_install_path": true,
+  "download": {
+    "url": "https://example.com/example_permission_rom.sfc",
+    "type": "file"
+  }
+}

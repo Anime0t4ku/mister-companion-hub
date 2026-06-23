@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "example_rom_official_source_only",
+  "category": "roms",
+  "type": "rom",
+  "handler": "rom_install",
+  "name": "Example Official Source ROM",
+  "author": "Developer Name",
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Example ROM entry where MiSTer Companion downloads from the developer's official source instead of mirroring the ROM.",
+  "visibility": "dev_only",
+  "sort_order": 10,
+  "official_url": "https://example.com/example_official_source_rom",
+  "version": "1.0.0",
+  "system": "MegaDrive",
+  "genres": [
+    "Homebrew"
+  ],
+  "redistribution_status": "official_source_only",
+  "source_url": "https://example.com/example_official_source_rom",
+  "redistribution_notes": "MiSTer Companion should download from the developer's official source only. Do not mirror this ROM unless explicit permission is granted.",
+  "default_install_path": "/games/MegaDrive",
+  "allow_custom_install_path": true,
+  "download": {
+    "url": "https://example.com/example_official_source_rom.md",
+    "type": "file"
+  }
+}

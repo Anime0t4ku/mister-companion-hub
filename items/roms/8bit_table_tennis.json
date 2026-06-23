@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "8bit_table_tennis",
+  "category": "roms",
+  "type": "rom",
+  "handler": "rom_install",
+  "name": "8-Bit Table Tennis",
+  "author": "Michael Billington",
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "A homebrew two-player table tennis game for the Nintendo Entertainment System.",
+  "visibility": "public",
+  "sort_order": 10,
+  "official_url": "https://github.com/mike42/8bit-table-tennis",
+  "version": "1.0",
+  "system": "NES",
+  "genres": [
+    "Sports",
+    "Homebrew"
+  ],
+  "redistribution_status": "license",
+  "license_name": "MIT",
+  "license_url": "https://github.com/mike42/8bit-table-tennis/blob/master/LICENSE",
+  "source_url": "https://github.com/mike42/8bit-table-tennis",
+  "redistribution_notes": "The project is distributed under the MIT license. Include the license notice when redistributing.",
+  "default_install_path": "/games/NES",
+  "allow_custom_install_path": true,
+  "download": {
+    "url": "https://github.com/mike42/8bit-table-tennis/releases/download/v1.0/table_tennis_v1.0.nes",
+    "type": "file"
+  }
+}

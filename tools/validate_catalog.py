@@ -23,10 +23,12 @@ BASE_ALLOWED_ITEM_FIELDS = {
 }
 ROM_ALLOWED_FIELDS = {
     "official_url", "system", "genres", "default_install_path", "allow_custom_install_path", "download",
+    "redistribution_status", "license_name", "license_url", "source_url",
+    "permission_note", "permission_date", "redistribution_notes",
 }
 FORBIDDEN_FIELDS = {
     "icon", "banner", "screenshots", "supported_modes", "mode_notes",
-    "badges", "actions_hint", "source_name", "source_url", "wallpaper_source",
+    "badges", "actions_hint", "source_name", "wallpaper_source",
     "thumbnail", "resolved_thumbnail", "gallery",
 }
 

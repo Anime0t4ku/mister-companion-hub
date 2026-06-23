@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "example_rom_public_domain",
+  "category": "roms",
+  "type": "rom",
+  "handler": "rom_install",
+  "name": "Example Public Domain ROM",
+  "author": "Developer Name",
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Example ROM entry for a public domain or CC0 homebrew game.",
+  "visibility": "dev_only",
+  "sort_order": 10,
+  "official_url": "https://example.com/example_public_domain_rom",
+  "version": "1.0.0",
+  "system": "Gameboy",
+  "genres": [
+    "Homebrew"
+  ],
+  "redistribution_status": "public_domain",
+  "license_name": "CC0",
+  "license_url": "https://example.com/cc0-or-public-domain-statement",
+  "source_url": "https://example.com/example_public_domain_rom",
+  "redistribution_notes": "The author states that the ROM is public domain or CC0.",
+  "default_install_path": "/games/Gameboy",
+  "allow_custom_install_path": true,
+  "download": {
+    "url": "https://example.com/example_public_domain_rom.gb",
+    "type": "file"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "example_rom_license",
+  "category": "roms",
+  "type": "rom",
+  "handler": "rom_install",
+  "name": "Example Licensed ROM",
+  "author": "Developer Name",
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Example ROM entry for a homebrew game distributed under a license such as MIT, BSD, GPL, CC0, or another redistribution-friendly license.",
+  "visibility": "dev_only",
+  "sort_order": 10,
+  "official_url": "https://example.com/example_licensed_rom",
+  "version": "1.0.0",
+  "system": "NES",
+  "genres": [
+    "Homebrew"
+  ],
+  "redistribution_status": "license",
+  "license_name": "MIT",
+  "license_url": "https://example.com/LICENSE",
+  "source_url": "https://example.com/source",
+  "redistribution_notes": "The ROM is distributed under a license that allows redistribution. Include the required license notice when redistributing.",
+  "default_install_path": "/games/NES",
+  "allow_custom_install_path": true,
+  "download": {
+    "url": "https://example.com/example_licensed_rom.nes",
+    "type": "file"
+  }
+}
