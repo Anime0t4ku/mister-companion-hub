@@ -70,8 +70,8 @@
       "name": "Zaparoo Frontend",
       "author": "Wizzo",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
       "visibility": "public",
       "sort_order": 30
     },
@@ -94,8 +94,8 @@
       "name": "zaparoo",
       "author": "Wizzo",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/zaparoo.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/zaparoo.png",
       "visibility": "public",
       "sort_order": 20
     },

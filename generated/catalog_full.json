@@ -130,8 +130,8 @@
       "description": "Zaparoo Frontend is a MiSTer frontend that provides a controller-friendly interface for browsing and launching your games, media, and other MiSTer content, with artwork support.\n\nMake sure you are using the latest version of Zaparoo before installing or updating Zaparoo Frontend.",
       "visibility": "public",
       "sort_order": 30,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
       "gallery": []
     },
     {
@@ -162,8 +162,8 @@
       "description": "Zaparoo lets you launch games, media, scripts, and other MiSTer content by scanning NFC cards, tags, barcodes, or other supported readers. It also allows MiSTer Companion to launch games remotely from the ZapScripts tab.",
       "visibility": "public",
       "sort_order": 20,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/zaparoo.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/zaparoo.png",
       "gallery": []
     },
     {
