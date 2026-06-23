@@ -82,8 +82,8 @@
       "name": "8-Bit Table Tennis",
       "author": "Michael Billington",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/roms.png",
+      "thumbnail": "assets/thumbnails/roms/8bit_table_tennis.png",
+      "resolved_thumbnail": "assets/thumbnails/roms/8bit_table_tennis.png",
       "visibility": "public",
       "sort_order": 10
     },
