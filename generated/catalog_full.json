@@ -156,8 +156,8 @@
       "redistribution_status": "license",
       "license_name": "MIT",
       "license_url": "https://github.com/mike42/8bit-table-tennis/blob/master/LICENSE",
-      "source_url": "https://github.com/mike42/8bit-table-tennis",
-      "redistribution_notes": "The project is distributed under the MIT license. Include the license notice when redistributing.",
+      "source_url": null,
+      "redistribution_notes": "The project is distributed under the MIT license.",
       "default_install_path": "/games/NES",
       "allow_custom_install_path": true,
       "download": {
