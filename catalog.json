@@ -12,6 +12,7 @@
     "items/extras/3s_arm.json",
     "items/extras/sonic_mania_mister.json",
     "items/extras/zaparoo_frontend.json",
+    "items/roms/dummy_game.json",
     "items/scripts/auto_time.json",
     "items/scripts/cd_game_organizer.json",
     "items/scripts/cifs_mount.json",

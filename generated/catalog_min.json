@@ -76,6 +76,18 @@
       "sort_order": 30
     },
     {
+      "id": "dummy_game",
+      "category": "roms",
+      "type": "rom",
+      "name": "Dummy Game",
+      "author": "MiSTer Companion Test",
+      "date_added": "2026-06-23T00:00:00Z",
+      "thumbnail": "assets/thumbnails/roms/dummy_game.png",
+      "resolved_thumbnail": "assets/thumbnails/roms/dummy_game.png",
+      "visibility": "public",
+      "sort_order": 10
+    },
+    {
       "id": "update_all",
       "category": "scripts",
       "type": "script",
