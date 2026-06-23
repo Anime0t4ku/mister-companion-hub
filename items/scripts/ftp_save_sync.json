@@ -5,20 +5,9 @@
   "type": "script",
   "handler": "ftp_save_sync",
   "name": "ftp_save_sync",
-  "author": "MiSTer community",
-  "version": null,
-  "release_date": null,
+  "author": "Anime0t4ku",
   "date_added": "2026-06-23T00:00:00Z",
   "description": "ftp_save_sync automatically syncs your MiSTer saves to a remote FTP or SFTP server. It can also sync savestates and keep saves shared between multiple MiSTers.",
-  "tags": [],
-  "badges": [
-    "Script"
-  ],
-  "actions_hint": [
-    "Install",
-    "Configure",
-    "Uninstall"
-  ],
   "visibility": "public",
   "sort_order": 80
 }

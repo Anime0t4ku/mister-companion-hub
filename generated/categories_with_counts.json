@@ -8,7 +8,6 @@
       "name": "Scripts",
       "description": "Add extra functionality to your standard MiSTer FPGA setup through useful scripts and utilities.",
       "sort_order": 10,
-      "default_thumbnail": "assets/defaults/scripts.png",
       "count": 11
     },
     {
@@ -16,7 +15,6 @@
       "name": "Cores",
       "description": "Custom and alternative cores that add features, improve compatibility, or offer different behavior from the standard MiSTer cores.",
       "sort_order": 20,
-      "default_thumbnail": "assets/defaults/cores.png",
       "count": 3
     },
     {
@@ -24,7 +22,6 @@
       "name": "Extras",
       "description": "MiSTer ARM ports, frontends, and additional tools that expand what your MiSTer setup can do.",
       "sort_order": 30,
-      "default_thumbnail": "assets/defaults/extras.png",
       "count": 3
     },
     {
@@ -33,7 +30,6 @@
       "description": "Free homebrew games and demos for retro systems supported by MiSTer.",
       "sort_order": 40,
       "hide_when_empty": true,
-      "default_thumbnail": "assets/defaults/roms.png",
       "count": 0
     },
     {
@@ -41,7 +37,6 @@
       "name": "Wallpaper Packs",
       "description": "MiSTer wallpaper packs for customizing the look of your MiSTer menu.",
       "sort_order": 50,
-      "default_thumbnail": "assets/defaults/wallpaper_packs.png",
       "count": 4
     }
   ]

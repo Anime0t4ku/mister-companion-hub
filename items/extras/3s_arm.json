@@ -5,22 +5,9 @@
   "type": "extra",
   "handler": "3s_arm",
   "name": "3S-ARM",
-  "author": "3S-ARM contributors",
-  "version": null,
-  "release_date": null,
+  "author": "kimchiman52",
   "date_added": "2026-06-23T00:00:00Z",
   "description": "3S-ARM brings Street Fighter III: 3rd Strike support to MiSTer through the 3S-ARM core and its required game resources.",
-  "tags": [],
-  "badges": [
-    "Extra",
-    "ARM Port",
-    "Game Files Required"
-  ],
-  "actions_hint": [
-    "Install",
-    "Update",
-    "Uninstall"
-  ],
   "visibility": "public",
   "sort_order": 10
 }

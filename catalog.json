@@ -3,7 +3,7 @@
   "catalog_version": "2026.06.23",
   "name": "MiSTer Companion Hub",
   "updated": "2026-06-23",
-  "minimum_app_version": "5.3.0",
+  "minimum_app_version": "6.0.0",
   "categories_file": "categories.json",
   "items": [
     "items/cores/mms2_gb_core.json",

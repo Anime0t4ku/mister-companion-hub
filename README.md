@@ -1,8 +1,8 @@
 # MiSTer Companion Hub
 
-This repository contains the public catalog metadata used by the MiSTer Companion Hub.
+This repository contains the catalog metadata used by the MiSTer Companion Install Center.
 
-The Hub catalog describes installable or manageable MiSTer-related entries such as scripts, custom cores, extras, ROMs, and wallpaper packs. The catalog controls how entries are displayed in MiSTer Companion. Complex install logic remains inside MiSTer Companion itself through trusted local handlers.
+The Hub describes what entries exist and how they should appear in MiSTer Companion. Install, update, uninstall, configure, Online Mode, and Offline Mode behavior stays inside MiSTer Companion through trusted local handlers.
 
 ## Categories
 
@@ -12,9 +12,42 @@ The Hub catalog describes installable or manageable MiSTer-related entries such 
 - **ROMs**: Free homebrew games and demos for retro systems supported by MiSTer.
 - **Wallpaper Packs**: MiSTer wallpaper packs for customizing the look of your MiSTer menu.
 
+## Source JSON
+
+Source item JSON files should stay minimal.
+
+For Scripts, Cores, Extras, and Wallpaper Packs, item JSON only contains display and routing metadata:
+
+- `schema_version`
+- `id`
+- `category`
+- `type`
+- `handler`
+- `name`
+- `author`
+- `date_added`
+- `description`
+- `visibility`
+- `sort_order`
+- optional `version`, only when meaningful
+- optional `release_date`, only when meaningful
+- optional `tags`, only when useful
+
+ROM entries are catalog-driven and also include ROM install metadata:
+
+- `official_url`
+- `version`
+- `system`
+- `genres`
+- `default_install_path`
+- `allow_custom_install_path`
+- `download`
+
+Do not add UI action fields such as install buttons, configure buttons, badges, or Online/Offline metadata to item JSON files.
+
 ## Generated files
 
-The source files live in `items/` and `categories.json`. Wallpaper pack entries point to the existing external automated wallpaper databases instead of duplicating those databases in this repo.
+The source files live in `items/` and `categories.json`.
 
 GitHub Actions generates:
 
@@ -23,23 +56,18 @@ GitHub Actions generates:
 - `generated/catalog_min.json`
 - `generated/categories_with_counts.json`
 - `generated/known_handlers.json`
-- `generated/wallpaper_sources.json`
 - `generated/manifest.json`
 
 MiSTer Companion should normally consume `generated/catalog_full.json` and use `generated/manifest.json` for cache checks.
 
 ## Images
 
-Install Center entries do not use individual icons. The visual system is based on thumbnails and optional gallery images.
+Install Center entries do not use individual icon fields. The visual system is based on thumbnails and optional gallery images.
 
 - Thumbnails should be 640x480.
 - Custom thumbnails are detected automatically from `assets/thumbnails/<category>/<item_id>.png`, `.jpg`, `.jpeg`, or `.webp`.
-- If no custom thumbnail exists, the generated catalog uses the category default from `assets/defaults/<category>.png`.
+- If no custom thumbnail exists, the generated catalog uses `assets/defaults/<category>.png`.
 - Gallery images are optional and detected automatically from `assets/gallery/<category>/<item_id>_01.png`, `<item_id>_02.png`, and so on.
 - If no gallery images exist, the generated catalog sets `gallery` to an empty list and MiSTer Companion should hide the gallery section.
 
-Source item JSON files should not contain `icon`, `banner`, or manual screenshot fields.
-
-## Wallpaper pack sources
-
-Wallpaper pack contents are not stored in this repository. The Install Center entries only provide display metadata and a `wallpaper_source` object that points to the existing automated wallpaper database ZIP and raw file base URL used by MiSTer Companion.
+Source item JSON files should not contain `icon`, `banner`, `screenshots`, `thumbnail`, `resolved_thumbnail`, or `gallery` fields.

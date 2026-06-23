@@ -3,43 +3,38 @@
   "catalog_version": "2026.06.23",
   "name": "MiSTer Companion Hub",
   "updated": "2026-06-23",
-  "minimum_app_version": "5.3.0",
+  "minimum_app_version": "6.0.0",
   "categories": [
     {
       "id": "scripts",
       "name": "Scripts",
       "description": "Add extra functionality to your standard MiSTer FPGA setup through useful scripts and utilities.",
-      "sort_order": 10,
-      "default_thumbnail": "assets/defaults/scripts.png"
+      "sort_order": 10
     },
     {
       "id": "cores",
       "name": "Cores",
       "description": "Custom and alternative cores that add features, improve compatibility, or offer different behavior from the standard MiSTer cores.",
-      "sort_order": 20,
-      "default_thumbnail": "assets/defaults/cores.png"
+      "sort_order": 20
     },
     {
       "id": "extras",
       "name": "Extras",
       "description": "MiSTer ARM ports, frontends, and additional tools that expand what your MiSTer setup can do.",
-      "sort_order": 30,
-      "default_thumbnail": "assets/defaults/extras.png"
+      "sort_order": 30
     },
     {
       "id": "roms",
       "name": "ROMs",
       "description": "Free homebrew games and demos for retro systems supported by MiSTer.",
       "sort_order": 40,
-      "hide_when_empty": true,
-      "default_thumbnail": "assets/defaults/roms.png"
+      "hide_when_empty": true
     },
     {
       "id": "wallpaper_packs",
       "name": "Wallpaper Packs",
       "description": "MiSTer wallpaper packs for customizing the look of your MiSTer menu.",
-      "sort_order": 50,
-      "default_thumbnail": "assets/defaults/wallpaper_packs.png"
+      "sort_order": 50
     }
   ],
   "items": [
@@ -51,19 +46,8 @@
       "handler": "mms2_gb_core",
       "name": "MMS2 GB Core",
       "author": "Heber",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "description": "Installs Heber’s custom GB core for MMS2 with physical cartridge support.\n\nThe core is installed in a separate custom location and adds a MiSTer home screen shortcut for directly loading cartridges. This does not affect the original Game Boy core, and regular ROMs should still be launched with the standard Game Boy core.",
-      "tags": [],
-      "badges": [
-        "Core"
-      ],
-      "actions_hint": [
-        "Install",
-        "Update",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 10,
       "thumbnail": null,
@@ -78,20 +62,8 @@
       "handler": "paprium_megadrive",
       "name": "Paprium MegaDrive",
       "author": "Pezz82",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "description": "Installs Pezz82’s customized MegaDrive core for running Paprium. This only installs the core and launcher. Provide your own ROM and make sure you use the correct ROM version with WAV files, not the MP3 files.",
-      "tags": [],
-      "badges": [
-        "Core",
-        "Mega Drive"
-      ],
-      "actions_hint": [
-        "Install",
-        "Update",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 20,
       "thumbnail": null,
@@ -105,27 +77,11 @@
       "type": "core",
       "handler": "retroachievement_cores",
       "name": "RetroAchievement Cores",
-      "author": "odelot and contributors",
-      "version": null,
-      "release_date": null,
+      "author": "odelot",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "RetroAchievement Cores adds RetroAchievements-enabled MiSTer cores and the required MiSTer_RA support files. It uses MGL launchers so your normal cores remain untouched.",
-      "tags": [],
-      "badges": [
-        "Cores",
-        "RetroAchievements",
-        "Configurable"
-      ],
-      "actions_hint": [
-        "Install",
-        "Update",
-        "Configure",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 30,
-      "source_name": "RA Cores for MiSTer",
-      "source_url": "https://github.com/odelot/Main_MiSTer",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/cores.png",
       "gallery": []
@@ -137,22 +93,9 @@
       "type": "extra",
       "handler": "3s_arm",
       "name": "3S-ARM",
-      "author": "3S-ARM contributors",
-      "version": null,
-      "release_date": null,
+      "author": "kimchiman52",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "3S-ARM brings Street Fighter III: 3rd Strike support to MiSTer through the 3S-ARM core and its required game resources.",
-      "tags": [],
-      "badges": [
-        "Extra",
-        "ARM Port",
-        "Game Files Required"
-      ],
-      "actions_hint": [
-        "Install",
-        "Update",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 10,
       "thumbnail": null,
@@ -166,23 +109,9 @@
       "type": "extra",
       "handler": "sonic_mania_mister",
       "name": "Sonic Mania MiSTer",
-      "author": "Sonic Mania MiSTer contributors",
-      "version": null,
-      "release_date": null,
+      "author": "kimchiman52",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "Sonic Mania MiSTer lets your MiSTer run Sonic Mania using the MiSTer port, with support for the required Data.rsdk game file.",
-      "tags": [],
-      "badges": [
-        "Extra",
-        "ARM Port",
-        "Game Files Required"
-      ],
-      "actions_hint": [
-        "Install",
-        "Update",
-        "Upload Data.rsdk",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 20,
       "thumbnail": null,
@@ -196,25 +125,11 @@
       "type": "extra",
       "handler": "zaparoo_frontend",
       "name": "Zaparoo Frontend",
-      "author": "Zaparoo Project",
-      "version": null,
-      "release_date": null,
+      "author": "Wizzo",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "Zaparoo Frontend is a MiSTer frontend that provides a controller-friendly interface for browsing and launching your games, media, and other MiSTer content, with artwork support.\n\nMake sure you are using the latest version of Zaparoo before installing or updating Zaparoo Frontend.",
-      "tags": [],
-      "badges": [
-        "Extra",
-        "Frontend"
-      ],
-      "actions_hint": [
-        "Install",
-        "Update",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 30,
-      "source_name": "Zaparoo Project",
-      "source_url": "https://github.com/ZaparooProject",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/extras.png",
       "gallery": []
@@ -226,25 +141,11 @@
       "type": "script",
       "handler": "update_all",
       "name": "update_all",
-      "author": "theypsilon and contributors",
-      "version": null,
-      "release_date": null,
+      "author": "theypsilon",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "update_all keeps your MiSTer FPGA setup up to date by downloading cores, scripts, databases, tools, and optional community content from configured update sources.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Configure",
-        "Run",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 10,
-      "source_name": "Update All MiSTer",
-      "source_url": "https://github.com/theypsilon/Update_All_MiSTer",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
       "gallery": []
@@ -256,24 +157,11 @@
       "type": "script",
       "handler": "zaparoo",
       "name": "Zaparoo",
-      "author": "Zaparoo Project",
-      "version": null,
-      "release_date": null,
+      "author": "Wizzo",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "Zaparoo lets you launch games, media, scripts, and other MiSTer content by scanning NFC cards, tags, barcodes, or other supported readers. It also allows MiSTer Companion to launch games remotely from the ZapScripts tab.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Update",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 20,
-      "source_name": "Zaparoo",
-      "source_url": "https://github.com/ZaparooProject",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
       "gallery": []
@@ -285,18 +173,9 @@
       "type": "script",
       "handler": "migrate_sd",
       "name": "migrate_sd",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Natrox",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "migrate_sd helps migrate an existing MiSTer SD card setup to another SD card, such as when moving to a larger card.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Run"
-      ],
       "visibility": "public",
       "sort_order": 30,
       "thumbnail": null,
@@ -311,19 +190,8 @@
       "handler": "cifs_mount",
       "name": "cifs_mount",
       "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "description": "cifs_mount connects your MiSTer to a shared network folder, such as a NAS or PC share, so games and files can be accessed over your local network.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Configure",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 40,
       "thumbnail": null,
@@ -337,19 +205,9 @@
       "type": "script",
       "handler": "auto_time",
       "name": "auto_time",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "auto_time automatically detects your timezone and applies the correct date and time to your MiSTer.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 50,
       "thumbnail": null,
@@ -363,20 +221,9 @@
       "type": "script",
       "handler": "cd_game_organizer",
       "name": "cd_game_organizer",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "cd_game_organizer organizes CD-based games into their own folders, helping keep virtual memory cards separated per game.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Run",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 60,
       "thumbnail": null,
@@ -390,20 +237,9 @@
       "type": "script",
       "handler": "dav_browser",
       "name": "DAV Browser",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "DAV Browser lets your MiSTer browse a WebDAV server, such as a NAS or remote file server, download ROMs or files, and optionally launch them after downloading.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Configure",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 70,
       "thumbnail": null,
@@ -417,20 +253,9 @@
       "type": "script",
       "handler": "ftp_save_sync",
       "name": "ftp_save_sync",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "ftp_save_sync automatically syncs your MiSTer saves to a remote FTP or SFTP server. It can also sync savestates and keep saves shared between multiple MiSTers.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Configure",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 80,
       "thumbnail": null,
@@ -444,19 +269,9 @@
       "type": "script",
       "handler": "static_wallpaper",
       "name": "static_wallpaper",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "static_wallpaper lets your MiSTer use a fixed menu wallpaper instead of the default changing wallpaper behavior.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 90,
       "thumbnail": null,
@@ -469,25 +284,12 @@
       "category": "scripts",
       "type": "script",
       "handler": "syncthing",
-      "name": "Syncthing",
-      "author": "Syncthing Project",
-      "version": null,
-      "release_date": null,
+      "name": "syncthing",
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "Syncthing is a peer-to-peer file synchronization tool. On MiSTer, it can be used to sync folders such as saves or other files with your PC, NAS, or other devices.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Configure",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 100,
-      "source_name": "Syncthing",
-      "source_url": "https://syncthing.net/",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
       "gallery": []
@@ -498,21 +300,10 @@
       "category": "scripts",
       "type": "script",
       "handler": "ra_viewer",
-      "name": "RA Viewer",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "name": "ra_viewer",
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "description": "RA Viewer shows your RetroAchievements progress directly on the MiSTer, including achievement information for your configured RetroAchievements account.",
-      "tags": [],
-      "badges": [
-        "Script"
-      ],
-      "actions_hint": [
-        "Install",
-        "Configure",
-        "Uninstall"
-      ],
       "visibility": "public",
       "sort_order": 110,
       "thumbnail": null,
@@ -527,31 +318,10 @@
       "handler": "wallpaper_pack",
       "name": "Ranny Snice Wallpapers",
       "author": "Ranny Snice",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "description": "A collection of MiSTer menu wallpapers by Ranny Snice, available in both 16:9 and 4:3 versions. Use the matching pack for your display setup, or install both if you switch between aspect ratios.",
-      "tags": [],
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
-      "actions_hint": [
-        "Install All",
-        "Install Selected",
-        "Remove Installed"
-      ],
       "visibility": "public",
       "sort_order": 10,
-      "source_name": "Ranny-Snice-Wallpapers",
-      "source_url": "https://github.com/Ranny-Snice/Ranny-Snice-Wallpapers",
-      "wallpaper_source": {
-        "type": "external_database_zip",
-        "database_url": "https://raw.githubusercontent.com/Ranny-Snice/Ranny-Snice-Wallpapers/db/db.json.zip",
-        "raw_base_url": "https://raw.githubusercontent.com/Ranny-Snice/Ranny-Snice-Wallpapers/main/",
-        "format": "mister_companion_wallpaper_db",
-        "aspect_ratio_field": "auto"
-      },
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
       "gallery": []
@@ -564,30 +334,10 @@
       "handler": "wallpaper_pack",
       "name": "PCN Challenge Wallpapers",
       "author": "Anime0t4ku",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "description": "Wallpapers created during PCN livestreams based on audience requests. These are made under time limits and sometimes with extra challenge conditions, giving each wallpaper its own unique style and context.",
-      "tags": [],
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
-      "actions_hint": [
-        "Install All",
-        "Install Selected",
-        "Remove Installed"
-      ],
       "visibility": "public",
       "sort_order": 20,
-      "source_name": "MiSTerWallpapers",
-      "source_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
-      "wallpaper_source": {
-        "type": "external_database_zip",
-        "database_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/db/db/pcnchallenge.json.zip",
-        "raw_base_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/main/",
-        "format": "mister_companion_wallpaper_db"
-      },
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
       "gallery": []
@@ -600,30 +350,10 @@
       "handler": "wallpaper_pack",
       "name": "PCN Premium Member Wallpapers",
       "author": "Anime0t4ku",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "description": "A wallpaper pack created for PCN Premium members on YouTube and Patreon. These wallpapers are made as exclusive extras for PCN supporters.",
-      "tags": [],
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
-      "actions_hint": [
-        "Install All",
-        "Install Selected",
-        "Remove Installed"
-      ],
       "visibility": "public",
       "sort_order": 30,
-      "source_name": "MiSTerWallpapers",
-      "source_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
-      "wallpaper_source": {
-        "type": "external_database_zip",
-        "database_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/db/db/pcnpremium.json.zip",
-        "raw_base_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/main/",
-        "format": "mister_companion_wallpaper_db"
-      },
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
       "gallery": []
@@ -636,30 +366,10 @@
       "handler": "wallpaper_pack",
       "name": "Anime0t4ku Wallpapers",
       "author": "Anime0t4ku",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "description": "A personal wallpaper pack by Anime0t4ku, made without fixed constraints. Themes can vary across anime, movies, games, systems, comics, and more.",
-      "tags": [],
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
-      "actions_hint": [
-        "Install All",
-        "Install Selected",
-        "Remove Installed"
-      ],
       "visibility": "public",
       "sort_order": 40,
-      "source_name": "MiSTerWallpapers",
-      "source_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
-      "wallpaper_source": {
-        "type": "external_database_zip",
-        "database_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/db/db/0t4kuwallpapers.json.zip",
-        "raw_base_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/main/",
-        "format": "mister_companion_wallpaper_db"
-      },
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
       "gallery": []

@@ -2,17 +2,32 @@
 
 ## Item requirements
 
+Source item JSON files should contain only necessary catalog metadata. They should not define UI buttons or install behavior.
+
 Every entry must include:
 
+- `schema_version`
+- `id`
+- `category`
+- `type`
+- `handler`
+- `name`
 - `author`
-- `version`, use `null` when not provided
-- `release_date`, use `null` when not provided
 - `date_added`, stored as a full ISO timestamp
 - `description`
-- `type`
+- `visibility`
+- `sort_order`
+
+Optional fields for normal handler-driven entries:
+
+- `version`, only when meaningful
+- `release_date`, only when meaningful
+- `tags`, only when useful
 
 ROM entries must also include:
 
+- `official_url`, link to the official game page or official download page
+- `version`
 - `system`
 - `genres`
 - `default_install_path`
@@ -25,6 +40,22 @@ ROMs must be free homebrew, demos, public-domain releases, or developer-approved
 
 Do not add Online Mode or Offline Mode metadata to item files. Mode-specific availability is handled by MiSTer Companion's local backend handlers, not by this catalog repository.
 
+Do not use these fields in source item JSON files:
+
+- `badges`
+- `actions_hint`
+- `source_name`
+- `source_url`
+- `wallpaper_source`
+- `supported_modes`
+- `mode_notes`
+- `icon`
+- `banner`
+- `screenshots`
+- `thumbnail`
+- `resolved_thumbnail`
+- `gallery`
+
 ## Validation
 
 Run these before opening a pull request:
@@ -35,17 +66,16 @@ python tools/generate_catalog.py
 python tools/validate_catalog.py
 ```
 
-
 ## Images
 
-Do not add individual icon fields to item JSON files. Install Center entries use thumbnails and optional gallery images only.
+Do not add individual image fields to item JSON files. Install Center entries use thumbnails and optional gallery images by file convention.
 
 Thumbnail rules:
 
 - Recommended size: 640x480.
 - Supported formats: PNG, JPG, JPEG, WEBP.
 - Filename pattern: `assets/thumbnails/<category>/<item_id>.png` or the same path with another supported extension.
-- If no thumbnail is provided, MiSTer Companion uses the default category image from `assets/defaults/`.
+- If no thumbnail is provided, MiSTer Companion uses `assets/defaults/<category>.png`.
 
 Gallery rules:
 
@@ -53,19 +83,8 @@ Gallery rules:
 - Filename pattern: `assets/gallery/<category>/<item_id>_01.png`, `<item_id>_02.png`, etc.
 - If no gallery images are provided, the gallery section is hidden.
 
-Do not use these fields in item JSON files:
-
-- `icon`
-- `banner`
-- `screenshots`
-
 ## Wallpaper pack entries
 
-Wallpaper pack entries must not include local pack files in this repository. Use `wallpaper_source` to point to the existing automated wallpaper database source. Required fields are:
+Wallpaper pack entries are handler-driven like other non-ROM entries. The item JSON should only contain catalog metadata and the `wallpaper_pack` handler.
 
-- `type`: `external_database_zip`
-- `database_url`: URL to the zipped wallpaper database JSON
-- `raw_base_url`: base URL used to resolve wallpaper files
-- `format`: currently `mister_companion_wallpaper_db`
-
-The actual wallpaper database remains in its existing source repository.
+Wallpaper pack source/database logic belongs in MiSTer Companion's existing wallpaper backend, not in the Hub item JSON.

@@ -5,19 +5,9 @@
   "type": "script",
   "handler": "static_wallpaper",
   "name": "static_wallpaper",
-  "author": "MiSTer community",
-  "version": null,
-  "release_date": null,
+  "author": "Anime0t4ku",
   "date_added": "2026-06-23T00:00:00Z",
   "description": "static_wallpaper lets your MiSTer use a fixed menu wallpaper instead of the default changing wallpaper behavior.",
-  "tags": [],
-  "badges": [
-    "Script"
-  ],
-  "actions_hint": [
-    "Install",
-    "Uninstall"
-  ],
   "visibility": "public",
   "sort_order": 90
 }

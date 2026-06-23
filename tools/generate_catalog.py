@@ -46,8 +46,7 @@ def public_item_paths():
 def category_default_thumbnail(category_data, category_id: str):
     for category in category_data.get("categories", []):
         if category.get("id") == category_id:
-            default = category.get("default_thumbnail") or f"assets/defaults/{category_id}.png"
-            return default
+            return f"assets/defaults/{category_id}.png"
     return f"assets/defaults/{category_id}.png"
 
 
@@ -84,7 +83,7 @@ def with_resolved_images(item, category_data):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--catalog-version", default=None)
-    parser.add_argument("--min-app-version", default="5.3.0")
+    parser.add_argument("--min-app-version", default="6.0.0")
     args = parser.parse_args()
 
     now = datetime.now(timezone.utc)
@@ -131,12 +130,9 @@ def main():
                 "type": item.get("type"),
                 "name": item.get("name"),
                 "author": item.get("author"),
-                "version": item.get("version"),
-                "release_date": item.get("release_date"),
                 "date_added": item.get("date_added"),
                 "thumbnail": item.get("thumbnail"),
                 "resolved_thumbnail": item.get("resolved_thumbnail"),
-                "badges": item.get("badges", []),
                 "visibility": item.get("visibility"),
                 "sort_order": item.get("sort_order", 9999),
             }
@@ -159,24 +155,6 @@ def main():
 
     handlers = sorted({item.get("handler") for item in items if item.get("handler")})
     write_json(GENERATED / "known_handlers.json", {"schema_version": 1, "handlers": handlers})
-
-    wallpaper_sources = [
-        {
-            "id": item.get("id"),
-            "name": item.get("name"),
-            "source_name": item.get("source_name"),
-            "source_url": item.get("source_url"),
-            "wallpaper_source": item.get("wallpaper_source"),
-        }
-        for item in items
-        if item.get("type") == "wallpaper_pack"
-    ]
-    write_json(GENERATED / "wallpaper_sources.json", {
-        "schema_version": 1,
-        "catalog_version": catalog_version,
-        "updated": updated,
-        "wallpaper_sources": wallpaper_sources,
-    })
 
     generated_files = sorted(GENERATED.glob("*.json")) + [ROOT / "catalog.json"]
     manifest = {

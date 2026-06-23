@@ -6,28 +6,8 @@
   "handler": "wallpaper_pack",
   "name": "Anime0t4ku Wallpapers",
   "author": "Anime0t4ku",
-  "version": null,
-  "release_date": null,
   "date_added": "2026-06-23T00:00:00Z",
   "description": "A personal wallpaper pack by Anime0t4ku, made without fixed constraints. Themes can vary across anime, movies, games, systems, comics, and more.",
-  "tags": [],
-  "badges": [
-    "Wallpaper Pack",
-    "Install Individually"
-  ],
-  "actions_hint": [
-    "Install All",
-    "Install Selected",
-    "Remove Installed"
-  ],
   "visibility": "public",
-  "sort_order": 40,
-  "source_name": "MiSTerWallpapers",
-  "source_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
-  "wallpaper_source": {
-    "type": "external_database_zip",
-    "database_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/db/db/0t4kuwallpapers.json.zip",
-    "raw_base_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/main/",
-    "format": "mister_companion_wallpaper_db"
-  }
+  "sort_order": 40
 }

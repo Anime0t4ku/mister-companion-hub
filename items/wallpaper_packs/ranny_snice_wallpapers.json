@@ -6,29 +6,8 @@
   "handler": "wallpaper_pack",
   "name": "Ranny Snice Wallpapers",
   "author": "Ranny Snice",
-  "version": null,
-  "release_date": null,
   "date_added": "2026-06-23T00:00:00Z",
   "description": "A collection of MiSTer menu wallpapers by Ranny Snice, available in both 16:9 and 4:3 versions. Use the matching pack for your display setup, or install both if you switch between aspect ratios.",
-  "tags": [],
-  "badges": [
-    "Wallpaper Pack",
-    "Install Individually"
-  ],
-  "actions_hint": [
-    "Install All",
-    "Install Selected",
-    "Remove Installed"
-  ],
   "visibility": "public",
-  "sort_order": 10,
-  "source_name": "Ranny-Snice-Wallpapers",
-  "source_url": "https://github.com/Ranny-Snice/Ranny-Snice-Wallpapers",
-  "wallpaper_source": {
-    "type": "external_database_zip",
-    "database_url": "https://raw.githubusercontent.com/Ranny-Snice/Ranny-Snice-Wallpapers/db/db.json.zip",
-    "raw_base_url": "https://raw.githubusercontent.com/Ranny-Snice/Ranny-Snice-Wallpapers/main/",
-    "format": "mister_companion_wallpaper_db",
-    "aspect_ratio_field": "auto"
-  }
+  "sort_order": 10
 }

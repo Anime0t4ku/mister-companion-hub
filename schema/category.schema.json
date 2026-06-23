@@ -19,21 +19,26 @@
           "id",
           "name",
           "description",
-          "default_thumbnail",
           "sort_order"
         ],
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "scripts",
+              "cores",
+              "extras",
+              "roms",
+              "wallpaper_packs"
+            ]
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "description": {
-            "type": "string"
-          },
-          "default_thumbnail": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1
           },
           "sort_order": {
             "type": "integer"
@@ -42,9 +47,9 @@
             "type": "boolean"
           }
         },
-        "additionalProperties": true
+        "additionalProperties": false
       }
     }
   },
-  "additionalProperties": true
+  "additionalProperties": false
 }

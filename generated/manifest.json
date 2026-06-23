@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-23T12:52:47.107876Z",
+  "generated_at": "2026-06-23T14:31:03.687877Z",
   "catalog_version": "2026.06.23",
   "files": [
     {
       "path": "generated/catalog_full.json",
-      "sha256": "99b048da6483a6a7eb91e135f9ede01fc08b390f508889a4d2adf5ff8b4ff5d1",
-      "size": 21646
+      "sha256": "5fc434d547d93f8edd06310c0e1a386ef8e0598df2ad8b574ffe0f250fa6aad1",
+      "size": 14182
     },
     {
       "path": "generated/catalog_min.json",
-      "sha256": "deefc86984d927a0efaa3953068d062300802cc639f6c1e3dbcd57ad104dc953",
-      "size": 9777
+      "sha256": "61a0324cec8788033fc33b95bad71786c0a6d914a28fc96999d8de76a428a66c",
+      "size": 7298
     },
     {
       "path": "generated/categories_with_counts.json",
-      "sha256": "fd88f25abde879c3143fa6751bc4c0b6c26215fe10b553dd8e5342a87db6bf85",
-      "size": 1527
+      "sha256": "f2e3f99352bdaa03338154f151495397e8631233ef068309a769df80b0cb4a9e",
+      "size": 1235
     },
     {
       "path": "generated/known_handlers.json",
@@ -25,17 +25,12 @@
     },
     {
       "path": "generated/manifest.json",
-      "sha256": "9260cd172e7921c80c708ac80c7f1942b1f4948a3ab08121eb1e5b757bcc625e",
-      "size": 1251
-    },
-    {
-      "path": "generated/wallpaper_sources.json",
-      "sha256": "4bc8b206275c36b4f3e1bc3c39f74e9e31349005610d144ddbb82f01af097293",
-      "size": 2343
+      "sha256": "c3424c8e2d302fb17dee2bcbf54056f8f1f20fb32376b0fdf20176522b4996a3",
+      "size": 1085
     },
     {
       "path": "catalog.json",
-      "sha256": "2803b77e75f0c7622d07cbdc28b8397cddac946ac1780366601b0f9989b8b078",
+      "sha256": "419b3d0c20c4218f968a5dd44ae456fe2e3a914455209757bb5028b761028e9f",
       "size": 1104
     }
   ]

@@ -5,18 +5,9 @@
   "type": "script",
   "handler": "migrate_sd",
   "name": "migrate_sd",
-  "author": "MiSTer community",
-  "version": null,
-  "release_date": null,
+  "author": "Natrox",
   "date_added": "2026-06-23T00:00:00Z",
   "description": "migrate_sd helps migrate an existing MiSTer SD card setup to another SD card, such as when moving to a larger card.",
-  "tags": [],
-  "badges": [
-    "Script"
-  ],
-  "actions_hint": [
-    "Run"
-  ],
   "visibility": "public",
   "sort_order": 30
 }

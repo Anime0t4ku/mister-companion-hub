@@ -1,11 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Catalog",
+  "title": "MiSTer Companion Hub Catalog Index",
   "type": "object",
   "required": [
     "schema_version",
     "catalog_version",
+    "name",
     "updated",
+    "minimum_app_version",
+    "categories_file",
     "items"
   ],
   "properties": {
@@ -13,11 +16,34 @@
       "type": "integer",
       "const": 1
     },
+    "catalog_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "minimum_app_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "categories_file": {
+      "type": "string",
+      "const": "categories.json"
+    },
     "items": {
       "type": "array",
       "items": {
-        "type": "string"
-      }
+        "type": "string",
+        "pattern": "^items/.+\\.json$"
+      },
+      "uniqueItems": true
     }
-  }
+  },
+  "additionalProperties": false
 }

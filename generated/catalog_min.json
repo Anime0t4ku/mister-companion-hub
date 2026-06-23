@@ -9,14 +9,9 @@
       "type": "core",
       "name": "MMS2 GB Core",
       "author": "Heber",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/cores.png",
-      "badges": [
-        "Core"
-      ],
       "visibility": "public",
       "sort_order": 10
     },
@@ -26,15 +21,9 @@
       "type": "core",
       "name": "Paprium MegaDrive",
       "author": "Pezz82",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/cores.png",
-      "badges": [
-        "Core",
-        "Mega Drive"
-      ],
       "visibility": "public",
       "sort_order": 20
     },
@@ -43,17 +32,10 @@
       "category": "cores",
       "type": "core",
       "name": "RetroAchievement Cores",
-      "author": "odelot and contributors",
-      "version": null,
-      "release_date": null,
+      "author": "odelot",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/cores.png",
-      "badges": [
-        "Cores",
-        "RetroAchievements",
-        "Configurable"
-      ],
       "visibility": "public",
       "sort_order": 30
     },
@@ -62,17 +44,10 @@
       "category": "extras",
       "type": "extra",
       "name": "3S-ARM",
-      "author": "3S-ARM contributors",
-      "version": null,
-      "release_date": null,
+      "author": "kimchiman52",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/extras.png",
-      "badges": [
-        "Extra",
-        "ARM Port",
-        "Game Files Required"
-      ],
       "visibility": "public",
       "sort_order": 10
     },
@@ -81,17 +56,10 @@
       "category": "extras",
       "type": "extra",
       "name": "Sonic Mania MiSTer",
-      "author": "Sonic Mania MiSTer contributors",
-      "version": null,
-      "release_date": null,
+      "author": "kimchiman52",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/extras.png",
-      "badges": [
-        "Extra",
-        "ARM Port",
-        "Game Files Required"
-      ],
       "visibility": "public",
       "sort_order": 20
     },
@@ -100,16 +68,10 @@
       "category": "extras",
       "type": "extra",
       "name": "Zaparoo Frontend",
-      "author": "Zaparoo Project",
-      "version": null,
-      "release_date": null,
+      "author": "Wizzo",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/extras.png",
-      "badges": [
-        "Extra",
-        "Frontend"
-      ],
       "visibility": "public",
       "sort_order": 30
     },
@@ -118,15 +80,10 @@
       "category": "scripts",
       "type": "script",
       "name": "update_all",
-      "author": "theypsilon and contributors",
-      "version": null,
-      "release_date": null,
+      "author": "theypsilon",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 10
     },
@@ -135,15 +92,10 @@
       "category": "scripts",
       "type": "script",
       "name": "Zaparoo",
-      "author": "Zaparoo Project",
-      "version": null,
-      "release_date": null,
+      "author": "Wizzo",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 20
     },
@@ -152,15 +104,10 @@
       "category": "scripts",
       "type": "script",
       "name": "migrate_sd",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Natrox",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 30
     },
@@ -170,14 +117,9 @@
       "type": "script",
       "name": "cifs_mount",
       "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 40
     },
@@ -186,15 +128,10 @@
       "category": "scripts",
       "type": "script",
       "name": "auto_time",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 50
     },
@@ -203,15 +140,10 @@
       "category": "scripts",
       "type": "script",
       "name": "cd_game_organizer",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 60
     },
@@ -220,15 +152,10 @@
       "category": "scripts",
       "type": "script",
       "name": "DAV Browser",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 70
     },
@@ -237,15 +164,10 @@
       "category": "scripts",
       "type": "script",
       "name": "ftp_save_sync",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 80
     },
@@ -254,15 +176,10 @@
       "category": "scripts",
       "type": "script",
       "name": "static_wallpaper",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 90
     },
@@ -270,16 +187,11 @@
       "id": "syncthing",
       "category": "scripts",
       "type": "script",
-      "name": "Syncthing",
-      "author": "Syncthing Project",
-      "version": null,
-      "release_date": null,
+      "name": "syncthing",
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 100
     },
@@ -287,16 +199,11 @@
       "id": "ra_viewer",
       "category": "scripts",
       "type": "script",
-      "name": "RA Viewer",
-      "author": "MiSTer community",
-      "version": null,
-      "release_date": null,
+      "name": "ra_viewer",
+      "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/scripts.png",
-      "badges": [
-        "Script"
-      ],
       "visibility": "public",
       "sort_order": 110
     },
@@ -306,15 +213,9 @@
       "type": "wallpaper_pack",
       "name": "Ranny Snice Wallpapers",
       "author": "Ranny Snice",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
       "visibility": "public",
       "sort_order": 10
     },
@@ -324,15 +225,9 @@
       "type": "wallpaper_pack",
       "name": "PCN Challenge Wallpapers",
       "author": "Anime0t4ku",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
       "visibility": "public",
       "sort_order": 20
     },
@@ -342,15 +237,9 @@
       "type": "wallpaper_pack",
       "name": "PCN Premium Member Wallpapers",
       "author": "Anime0t4ku",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
       "visibility": "public",
       "sort_order": 30
     },
@@ -360,15 +249,9 @@
       "type": "wallpaper_pack",
       "name": "Anime0t4ku Wallpapers",
       "author": "Anime0t4ku",
-      "version": null,
-      "release_date": null,
       "date_added": "2026-06-23T00:00:00Z",
       "thumbnail": null,
       "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
-      "badges": [
-        "Wallpaper Pack",
-        "Install Individually"
-      ],
       "visibility": "public",
       "sort_order": 40
     }

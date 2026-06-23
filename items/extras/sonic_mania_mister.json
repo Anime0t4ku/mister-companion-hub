@@ -5,23 +5,9 @@
   "type": "extra",
   "handler": "sonic_mania_mister",
   "name": "Sonic Mania MiSTer",
-  "author": "Sonic Mania MiSTer contributors",
-  "version": null,
-  "release_date": null,
+  "author": "kimchiman52",
   "date_added": "2026-06-23T00:00:00Z",
   "description": "Sonic Mania MiSTer lets your MiSTer run Sonic Mania using the MiSTer port, with support for the required Data.rsdk game file.",
-  "tags": [],
-  "badges": [
-    "Extra",
-    "ARM Port",
-    "Game Files Required"
-  ],
-  "actions_hint": [
-    "Install",
-    "Update",
-    "Upload Data.rsdk",
-    "Uninstall"
-  ],
   "visibility": "public",
   "sort_order": 20
 }
