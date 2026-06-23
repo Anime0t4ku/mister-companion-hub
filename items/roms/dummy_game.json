@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "dummy_game",
+  "category": "roms",
+  "type": "rom",
+  "handler": "rom_install",
+  "name": "Dummy Game",
+  "author": "MiSTer Companion Test",
+  "version": "1.0.0",
+  "release_date": "2026-06-23",
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Temporary dummy ROM entry used to test the Install Center ROM installation flow.",
+  "visibility": "public",
+  "sort_order": 10,
+  "system": "SNES",
+  "genres": [
+    "Test"
+  ],
+  "official_url": "https://github.com/Anime0t4ku/mister-companion-hub",
+  "default_install_path": "/games/SNES",
+  "allow_custom_install_path": true,
+  "download": {
+    "url": "https://raw.githubusercontent.com/Anime0t4ku/mister-companion-hub/main/test-files/dummy_game.sfc",
+    "type": "file"
+  }
+}
