@@ -164,8 +164,8 @@
         "url": "https://github.com/mike42/8bit-table-tennis/releases/download/v1.0/table_tennis_v1.0.nes",
         "type": "file"
       },
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/roms.png",
+      "thumbnail": "assets/thumbnails/roms/8bit_table_tennis.png",
+      "resolved_thumbnail": "assets/thumbnails/roms/8bit_table_tennis.png",
       "gallery": []
     },
     {
