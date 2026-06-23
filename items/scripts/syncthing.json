@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "syncthing",
+  "category": "scripts",
+  "type": "script",
+  "handler": "syncthing",
+  "name": "Syncthing",
+  "author": "Syncthing Project",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Syncthing is a peer-to-peer file synchronization tool. On MiSTer, it can be used to sync folders such as saves or other files with your PC, NAS, or other devices.",
+  "tags": [],
+  "badges": [
+    "Script"
+  ],
+  "actions_hint": [
+    "Install",
+    "Configure",
+    "Uninstall"
+  ],
+  "visibility": "public",
+  "sort_order": 100,
+  "source_name": "Syncthing",
+  "source_url": "https://syncthing.net/"
+}

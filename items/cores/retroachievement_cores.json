@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "retroachievement_cores",
+  "category": "cores",
+  "type": "core",
+  "handler": "retroachievement_cores",
+  "name": "RetroAchievement Cores",
+  "author": "odelot and contributors",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "RetroAchievement Cores adds RetroAchievements-enabled MiSTer cores and the required MiSTer_RA support files. It uses MGL launchers so your normal cores remain untouched.",
+  "tags": [],
+  "badges": [
+    "Cores",
+    "RetroAchievements",
+    "Configurable"
+  ],
+  "actions_hint": [
+    "Install",
+    "Update",
+    "Configure",
+    "Uninstall"
+  ],
+  "visibility": "public",
+  "sort_order": 30,
+  "source_name": "RA Cores for MiSTer",
+  "source_url": "https://github.com/odelot/Main_MiSTer"
+}

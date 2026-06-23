@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MiSTer Companion Hub Item",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "category",
+    "type",
+    "handler",
+    "name",
+    "author",
+    "date_added",
+    "description",
+    "visibility",
+    "sort_order"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "scripts",
+        "cores",
+        "extras",
+        "roms",
+        "wallpaper_packs"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "script",
+        "core",
+        "extra",
+        "rom",
+        "wallpaper_pack"
+      ]
+    },
+    "handler": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "release_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "date_added": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "visibility": {
+      "type": "string",
+      "enum": [
+        "public",
+        "hidden",
+        "dev_only",
+        "deprecated"
+      ]
+    },
+    "sort_order": {
+      "type": "integer"
+    },
+    "system": {
+      "type": "string"
+    },
+    "default_install_path": {
+      "type": "string",
+      "pattern": "^/games/.+"
+    },
+    "allow_custom_install_path": {
+      "type": "boolean"
+    },
+    "genres": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "download": {
+      "type": "object",
+      "required": [
+        "url",
+        "type"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "file",
+            "archive"
+          ]
+        },
+        "install_extensions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^\\."
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "wallpaper_source": {
+      "type": "object",
+      "required": [
+        "type",
+        "database_url",
+        "raw_base_url",
+        "format"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "external_database_zip"
+        },
+        "database_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raw_base_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aspect_ratio_field": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "rom"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "system",
+          "default_install_path",
+          "allow_custom_install_path",
+          "download",
+          "genres"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "wallpaper_pack"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "wallpaper_source"
+        ]
+      }
+    }
+  ]
+}

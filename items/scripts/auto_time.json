@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "auto_time",
+  "category": "scripts",
+  "type": "script",
+  "handler": "auto_time",
+  "name": "auto_time",
+  "author": "MiSTer community",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "auto_time automatically detects your timezone and applies the correct date and time to your MiSTer.",
+  "tags": [],
+  "badges": [
+    "Script"
+  ],
+  "actions_hint": [
+    "Install",
+    "Uninstall"
+  ],
+  "visibility": "public",
+  "sort_order": 50
+}

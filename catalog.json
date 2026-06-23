@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.06.23",
+  "name": "MiSTer Companion Hub",
+  "updated": "2026-06-23",
+  "minimum_app_version": "5.3.0",
+  "categories_file": "categories.json",
+  "items": [
+    "items/cores/mms2_gb_core.json",
+    "items/cores/paprium_megadrive.json",
+    "items/cores/retroachievement_cores.json",
+    "items/extras/3s_arm.json",
+    "items/extras/sonic_mania_mister.json",
+    "items/extras/zaparoo_frontend.json",
+    "items/scripts/auto_time.json",
+    "items/scripts/cd_game_organizer.json",
+    "items/scripts/cifs_mount.json",
+    "items/scripts/dav_browser.json",
+    "items/scripts/ftp_save_sync.json",
+    "items/scripts/migrate_sd.json",
+    "items/scripts/ra_viewer.json",
+    "items/scripts/static_wallpaper.json",
+    "items/scripts/syncthing.json",
+    "items/scripts/update_all.json",
+    "items/scripts/zaparoo.json",
+    "items/wallpaper_packs/anime0t4ku_wallpapers.json",
+    "items/wallpaper_packs/pcn_challenge_wallpapers.json",
+    "items/wallpaper_packs/pcn_premium_wallpapers.json",
+    "items/wallpaper_packs/ranny_snice_wallpapers.json"
+  ]
+}

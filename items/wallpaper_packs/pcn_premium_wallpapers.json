@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "pcn_premium_wallpapers",
+  "category": "wallpaper_packs",
+  "type": "wallpaper_pack",
+  "handler": "wallpaper_pack",
+  "name": "PCN Premium Member Wallpapers",
+  "author": "Anime0t4ku",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "A wallpaper pack created for PCN Premium members on YouTube and Patreon. These wallpapers are made as exclusive extras for PCN supporters.",
+  "tags": [],
+  "badges": [
+    "Wallpaper Pack",
+    "Install Individually"
+  ],
+  "actions_hint": [
+    "Install All",
+    "Install Selected",
+    "Remove Installed"
+  ],
+  "visibility": "public",
+  "sort_order": 30,
+  "source_name": "MiSTerWallpapers",
+  "source_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
+  "wallpaper_source": {
+    "type": "external_database_zip",
+    "database_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/db/db/pcnpremium.json.zip",
+    "raw_base_url": "https://raw.githubusercontent.com/Anime0t4ku/MiSTerWallpapers/main/",
+    "format": "mister_companion_wallpaper_db"
+  }
+}

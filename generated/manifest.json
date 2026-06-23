@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-23T12:17:38.414841Z",
+  "catalog_version": "2026.06.23",
+  "files": [
+    {
+      "path": "generated/catalog_full.json",
+      "sha256": "99b048da6483a6a7eb91e135f9ede01fc08b390f508889a4d2adf5ff8b4ff5d1",
+      "size": 21646
+    },
+    {
+      "path": "generated/catalog_min.json",
+      "sha256": "deefc86984d927a0efaa3953068d062300802cc639f6c1e3dbcd57ad104dc953",
+      "size": 9777
+    },
+    {
+      "path": "generated/categories_with_counts.json",
+      "sha256": "fd88f25abde879c3143fa6751bc4c0b6c26215fe10b553dd8e5342a87db6bf85",
+      "size": 1527
+    },
+    {
+      "path": "generated/known_handlers.json",
+      "sha256": "413ffd2eea09577f3df74d38f1dac87e0ff3e4b79f7823ba6f37b8bfef732c27",
+      "size": 416
+    },
+    {
+      "path": "generated/manifest.json",
+      "sha256": "2f3cb0376d3b39da4993c23f64decfa319f887a00f8e9d4565095c76f599dca1",
+      "size": 1252
+    },
+    {
+      "path": "generated/wallpaper_sources.json",
+      "sha256": "4bc8b206275c36b4f3e1bc3c39f74e9e31349005610d144ddbb82f01af097293",
+      "size": 2343
+    },
+    {
+      "path": "catalog.json",
+      "sha256": "2803b77e75f0c7622d07cbdc28b8397cddac946ac1780366601b0f9989b8b078",
+      "size": 1104
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "ra_viewer",
+  "category": "scripts",
+  "type": "script",
+  "handler": "ra_viewer",
+  "name": "RA Viewer",
+  "author": "MiSTer community",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "RA Viewer shows your RetroAchievements progress directly on the MiSTer, including achievement information for your configured RetroAchievements account.",
+  "tags": [],
+  "badges": [
+    "Script"
+  ],
+  "actions_hint": [
+    "Install",
+    "Configure",
+    "Uninstall"
+  ],
+  "visibility": "public",
+  "sort_order": 110
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "cd_game_organizer",
+  "category": "scripts",
+  "type": "script",
+  "handler": "cd_game_organizer",
+  "name": "cd_game_organizer",
+  "author": "MiSTer community",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "cd_game_organizer organizes CD-based games into their own folders, helping keep virtual memory cards separated per game.",
+  "tags": [],
+  "badges": [
+    "Script"
+  ],
+  "actions_hint": [
+    "Install",
+    "Run",
+    "Uninstall"
+  ],
+  "visibility": "public",
+  "sort_order": 60
+}

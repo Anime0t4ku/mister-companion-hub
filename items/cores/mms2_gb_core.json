@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "mms2_gb_core",
+  "category": "cores",
+  "type": "core",
+  "handler": "mms2_gb_core",
+  "name": "MMS2 GB Core",
+  "author": "Heber",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Installs Heber’s custom GB core for MMS2 with physical cartridge support.\n\nThe core is installed in a separate custom location and adds a MiSTer home screen shortcut for directly loading cartridges. This does not affect the original Game Boy core, and regular ROMs should still be launched with the standard Game Boy core.",
+  "tags": [],
+  "badges": [
+    "Core"
+  ],
+  "actions_hint": [
+    "Install",
+    "Update",
+    "Uninstall"
+  ],
+  "visibility": "public",
+  "sort_order": 10
+}

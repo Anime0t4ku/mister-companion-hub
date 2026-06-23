@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "handlers": [
+    "3s_arm",
+    "auto_time",
+    "cd_game_organizer",
+    "cifs_mount",
+    "dav_browser",
+    "ftp_save_sync",
+    "migrate_sd",
+    "mms2_gb_core",
+    "paprium_megadrive",
+    "ra_viewer",
+    "retroachievement_cores",
+    "sonic_mania_mister",
+    "static_wallpaper",
+    "syncthing",
+    "update_all",
+    "wallpaper_pack",
+    "zaparoo",
+    "zaparoo_frontend"
+  ]
+}

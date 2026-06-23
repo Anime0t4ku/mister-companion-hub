@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "paprium_megadrive",
+  "category": "cores",
+  "type": "core",
+  "handler": "paprium_megadrive",
+  "name": "Paprium MegaDrive",
+  "author": "Pezz82",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Installs Pezz82’s customized MegaDrive core for running Paprium. This only installs the core and launcher. Provide your own ROM and make sure you use the correct ROM version with WAV files, not the MP3 files.",
+  "tags": [],
+  "badges": [
+    "Core",
+    "Mega Drive"
+  ],
+  "actions_hint": [
+    "Install",
+    "Update",
+    "Uninstall"
+  ],
+  "visibility": "public",
+  "sort_order": 20
+}

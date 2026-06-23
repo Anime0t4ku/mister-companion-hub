@@ -1,0 +1,46 @@
+name: Build Companion Hub Catalog
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-catalog:
+    name: Validate and generate catalog
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate source files
+        run: python tools/validate_catalog.py
+
+      - name: Generate catalog files
+        run: python tools/generate_catalog.py
+
+      - name: Validate generated catalog
+        run: python tools/validate_catalog.py
+
+      - name: Check generated file changes
+        run: git status --short
+
+      - name: Commit generated files
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update generated Companion Hub catalog'
+          file_pattern: 'catalog.json generated/*.json'

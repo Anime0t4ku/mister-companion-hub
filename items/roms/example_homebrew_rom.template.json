@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "example_homebrew_rom",
+  "category": "roms",
+  "type": "rom",
+  "handler": "rom_install",
+  "name": "Example Homebrew ROM",
+  "author": "Developer Name",
+  "version": null,
+  "release_date": null,
+  "date_added": "2026-06-23T00:00:00Z",
+  "description": "Free homebrew game or demo for a retro system supported by MiSTer.",
+  "system": "SNES",
+  "default_install_path": "/games/SNES",
+  "allow_custom_install_path": true,
+  "download": {
+    "url": "https://example.com/example_homebrew_rom.zip",
+    "type": "archive",
+    "install_extensions": [
+      ".sfc",
+      ".smc"
+    ]
+  },
+  "tags": [],
+  "badges": [
+    "ROM",
+    "Homebrew"
+  ],
+  "actions_hint": [
+    "Install",
+    "Uninstall",
+    "Open Folder"
+  ],
+  "visibility": "dev_only",
+  "sort_order": 10,
+  "genres": [
+    "Demo"
+  ]
+}
