@@ -4,7 +4,7 @@
   "category": "scripts",
   "type": "script",
   "handler": "zaparoo",
-  "name": "Zaparoo",
+  "name": "zaparoo",
   "author": "Wizzo",
   "date_added": "2026-06-23T00:00:00Z",
   "description": "Zaparoo lets you launch games, media, scripts, and other MiSTer content by scanning NFC cards, tags, barcodes, or other supported readers. It also allows MiSTer Companion to launch games remotely from the ZapScripts tab.",

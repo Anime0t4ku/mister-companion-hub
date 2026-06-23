@@ -4,7 +4,7 @@
   "category": "scripts",
   "type": "script",
   "handler": "dav_browser",
-  "name": "DAV Browser",
+  "name": "dav_browser",
   "author": "Anime0t4ku",
   "date_added": "2026-06-23T00:00:00Z",
   "description": "DAV Browser lets your MiSTer browse a WebDAV server, such as a NAS or remote file server, download ROMs or files, and optionally launch them after downloading.",
