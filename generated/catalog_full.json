@@ -50,8 +50,8 @@
       "description": "Installs Heber’s custom GB core for MMS2 with physical cartridge support.\n\nThe core is installed in a separate custom location and adds a MiSTer home screen shortcut for directly loading cartridges. This does not affect the original Game Boy core, and regular ROMs should still be launched with the standard Game Boy core.",
       "visibility": "public",
       "sort_order": 10,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/cores.png",
+      "thumbnail": "assets/thumbnails/cores/mms2_gb_core.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/mms2_gb_core.png",
       "gallery": []
     },
     {
@@ -212,8 +212,8 @@
       "description": "migrate_sd helps migrate an existing MiSTer SD card setup to another SD card, such as when moving to a larger card.",
       "visibility": "public",
       "sort_order": 30,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/migrate_sd.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/migrate_sd.png",
       "gallery": []
     },
     {

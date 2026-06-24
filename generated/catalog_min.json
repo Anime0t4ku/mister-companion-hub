@@ -10,8 +10,8 @@
       "name": "MMS2 GB Core",
       "author": "Heber",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/cores.png",
+      "thumbnail": "assets/thumbnails/cores/mms2_gb_core.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/mms2_gb_core.png",
       "visibility": "public",
       "sort_order": 10
     },
@@ -118,8 +118,8 @@
       "name": "migrate_sd",
       "author": "Natrox",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/migrate_sd.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/migrate_sd.png",
       "visibility": "public",
       "sort_order": 30
     },
