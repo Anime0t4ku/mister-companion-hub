@@ -15,7 +15,7 @@
       "name": "Cores",
       "description": "Custom and alternative cores that add features, improve compatibility, or offer different behavior from the standard MiSTer cores.",
       "sort_order": 20,
-      "count": 3
+      "count": 4
     },
     {
       "id": "extras",

@@ -28,6 +28,18 @@
       "sort_order": 20
     },
     {
+      "id": "megavgmdrive",
+      "category": "cores",
+      "type": "core",
+      "name": "MegaVGMDrive",
+      "author": "dai-VGM",
+      "date_added": "2026-06-24T00:00:00Z",
+      "thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
+      "visibility": "public",
+      "sort_order": 21
+    },
+    {
       "id": "retroachievement_cores",
       "category": "cores",
       "type": "core",

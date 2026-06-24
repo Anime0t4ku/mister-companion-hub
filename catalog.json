@@ -6,6 +6,7 @@
   "minimum_app_version": "6.0.0",
   "categories_file": "categories.json",
   "items": [
+    "items/cores/megavgmdrive.json",
     "items/cores/mms2_gb_core.json",
     "items/cores/paprium_megadrive.json",
     "items/cores/retroachievement_cores.json",

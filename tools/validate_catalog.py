@@ -13,7 +13,7 @@ IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 ALLOWED_HANDLERS = {
     "update_all", "zaparoo", "migrate_sd", "cifs_mount", "auto_time", "cd_game_organizer",
     "dav_browser", "ftp_save_sync", "static_wallpaper", "syncthing", "ra_viewer",
-    "mms2_gb_core", "paprium_megadrive", "retroachievement_cores",
+    "mms2_gb_core", "paprium_megadrive", "megavgmdrive", "retroachievement_cores",
     "3s_arm", "sonic_mania_mister", "zaparoo_frontend", "wallpaper_pack", "rom_install",
 }
 

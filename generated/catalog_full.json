@@ -72,6 +72,22 @@
     },
     {
       "schema_version": 1,
+      "id": "megavgmdrive",
+      "category": "cores",
+      "type": "core",
+      "handler": "megavgmdrive",
+      "name": "MegaVGMDrive",
+      "author": "dai-VGM",
+      "date_added": "2026-06-24T00:00:00Z",
+      "description": "Installs MegaVGMDrive, a MegaDrive/Genesis VGM playback core for MiSTer. This only installs the core, launcher, and game folder structure.",
+      "visibility": "public",
+      "sort_order": 21,
+      "thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
       "id": "retroachievement_cores",
       "category": "cores",
       "type": "core",
