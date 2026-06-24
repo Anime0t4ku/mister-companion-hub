@@ -154,8 +154,8 @@
       "name": "cd_game_organizer",
       "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/cd_game_organizer.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/cd_game_organizer.png",
       "visibility": "public",
       "sort_order": 60
     },
