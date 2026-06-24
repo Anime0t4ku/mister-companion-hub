@@ -166,8 +166,8 @@
       "name": "dav_browser",
       "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/dav_browser.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/dav_browser.png",
       "visibility": "public",
       "sort_order": 70
     },

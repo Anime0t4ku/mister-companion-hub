@@ -276,8 +276,8 @@
       "description": "DAV Browser lets your MiSTer browse a WebDAV server, such as a NAS or remote file server, download ROMs or files, and optionally launch them after downloading.",
       "visibility": "public",
       "sort_order": 70,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/dav_browser.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/dav_browser.png",
       "gallery": []
     },
     {
