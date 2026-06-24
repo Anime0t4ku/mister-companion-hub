@@ -238,8 +238,8 @@
       "name": "PCN Challenge Wallpapers",
       "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/pcn_challenge_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/pcn_challenge_wallpapers.png",
       "visibility": "public",
       "sort_order": 20
     },
@@ -250,8 +250,8 @@
       "name": "PCN Premium Member Wallpapers",
       "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/pcn_premium_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/pcn_premium_wallpapers.png",
       "visibility": "public",
       "sort_order": 30
     },

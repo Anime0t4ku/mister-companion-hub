@@ -372,8 +372,8 @@
       "description": "Wallpapers created during PCN livestreams based on audience requests. These are made under time limits and sometimes with extra challenge conditions, giving each wallpaper its own unique style and context.",
       "visibility": "public",
       "sort_order": 20,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/pcn_challenge_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/pcn_challenge_wallpapers.png",
       "gallery": []
     },
     {
@@ -388,8 +388,8 @@
       "description": "A wallpaper pack created for PCN Premium members on YouTube and Patreon. These wallpapers are made as exclusive extras for PCN supporters.",
       "visibility": "public",
       "sort_order": 30,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/pcn_premium_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/pcn_premium_wallpapers.png",
       "gallery": []
     },
     {
