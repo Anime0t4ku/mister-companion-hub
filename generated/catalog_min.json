@@ -130,8 +130,8 @@
       "name": "cifs_mount",
       "author": "MiSTer community",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/cifs_mount.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/cifs_mount.png",
       "visibility": "public",
       "sort_order": 40
     },
