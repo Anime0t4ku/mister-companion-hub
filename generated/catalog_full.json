@@ -244,8 +244,8 @@
       "description": "auto_time automatically detects your timezone and applies the correct date and time to your MiSTer.",
       "visibility": "public",
       "sort_order": 50,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/auto_time.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/auto_time.png",
       "gallery": []
     },
     {
