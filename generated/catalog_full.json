@@ -228,8 +228,8 @@
       "description": "cifs_mount connects your MiSTer to a shared network folder, such as a NAS or PC share, so games and files can be accessed over your local network.",
       "visibility": "public",
       "sort_order": 40,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/cifs_mount.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/cifs_mount.png",
       "gallery": []
     },
     {
