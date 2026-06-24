@@ -66,8 +66,8 @@
       "description": "Installs Pezz82’s customized MegaDrive core for running Paprium. This only installs the core and launcher. Provide your own ROM and make sure you use the correct ROM version with WAV files, not the MP3 files.",
       "visibility": "public",
       "sort_order": 20,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/cores.png",
+      "thumbnail": "assets/thumbnails/cores/paprium_megadrive.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/paprium_megadrive.png",
       "gallery": []
     },
     {

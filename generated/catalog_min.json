@@ -22,8 +22,8 @@
       "name": "Paprium MegaDrive",
       "author": "Pezz82",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/cores.png",
+      "thumbnail": "assets/thumbnails/cores/paprium_megadrive.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/paprium_megadrive.png",
       "visibility": "public",
       "sort_order": 20
     },
