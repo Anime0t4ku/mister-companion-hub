@@ -226,8 +226,8 @@
       "name": "Ranny Snice Wallpapers",
       "author": "Ranny Snice",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/ranny_snice_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/ranny_snice_wallpapers.png",
       "visibility": "public",
       "sort_order": 10
     },

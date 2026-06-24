@@ -356,8 +356,8 @@
       "description": "A collection of MiSTer menu wallpapers by Ranny Snice, available in both 16:9 and 4:3 versions. Use the matching pack for your display setup, or install both if you switch between aspect ratios.",
       "visibility": "public",
       "sort_order": 10,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/ranny_snice_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/ranny_snice_wallpapers.png",
       "gallery": []
     },
     {
