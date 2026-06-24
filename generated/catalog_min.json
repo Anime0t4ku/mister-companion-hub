@@ -58,8 +58,8 @@
       "name": "Sonic Mania MiSTer",
       "author": "kimchiman52",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/sonic_mania_mister.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/sonic_mania_mister.png",
       "visibility": "public",
       "sort_order": 20
     },

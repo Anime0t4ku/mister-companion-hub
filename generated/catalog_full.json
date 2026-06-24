@@ -114,8 +114,8 @@
       "description": "Sonic Mania MiSTer lets your MiSTer run Sonic Mania using the MiSTer port, with support for the required Data.rsdk game file.",
       "visibility": "public",
       "sort_order": 20,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/sonic_mania_mister.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/sonic_mania_mister.png",
       "gallery": []
     },
     {
