@@ -82,8 +82,8 @@
       "description": "RetroAchievement Cores adds RetroAchievements-enabled MiSTer cores and the required MiSTer_RA support files. It uses MGL launchers so your normal cores remain untouched.",
       "visibility": "public",
       "sort_order": 30,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/cores.png",
+      "thumbnail": "assets/thumbnails/cores/retroachievement_cores.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/retroachievement_cores.png",
       "gallery": []
     },
     {
@@ -308,8 +308,8 @@
       "description": "static_wallpaper lets your MiSTer use a fixed menu wallpaper instead of the default changing wallpaper behavior.",
       "visibility": "public",
       "sort_order": 90,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/static_wallpaper.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/static_wallpaper.png",
       "gallery": []
     },
     {
@@ -340,8 +340,8 @@
       "description": "RA Viewer shows your RetroAchievements progress directly on the MiSTer, including achievement information for your configured RetroAchievements account.",
       "visibility": "public",
       "sort_order": 110,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
       "gallery": []
     },
     {

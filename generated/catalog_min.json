@@ -34,8 +34,8 @@
       "name": "RetroAchievement Cores",
       "author": "odelot",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/cores.png",
+      "thumbnail": "assets/thumbnails/cores/retroachievement_cores.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/retroachievement_cores.png",
       "visibility": "public",
       "sort_order": 30
     },
@@ -190,8 +190,8 @@
       "name": "static_wallpaper",
       "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/static_wallpaper.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/static_wallpaper.png",
       "visibility": "public",
       "sort_order": 90
     },
@@ -214,8 +214,8 @@
       "name": "ra_viewer",
       "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
       "visibility": "public",
       "sort_order": 110
     },
