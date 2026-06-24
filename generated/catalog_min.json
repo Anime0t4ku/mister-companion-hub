@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.06.23",
-  "updated": "2026-06-23",
+  "catalog_version": "2026.06.24",
+  "updated": "2026-06-24",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -46,8 +46,8 @@
       "name": "3S-ARM",
       "author": "kimchiman52",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/3s_arm.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/3s_arm.png",
       "visibility": "public",
       "sort_order": 10
     },
@@ -262,8 +262,8 @@
       "name": "Anime0t4ku Wallpapers",
       "author": "Anime0t4ku",
       "date_added": "2026-06-23T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/anime0t4ku_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/anime0t4ku_wallpapers.png",
       "visibility": "public",
       "sort_order": 40
     }

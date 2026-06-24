@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.06.23",
+  "catalog_version": "2026.06.24",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "minimum_app_version": "6.0.0",
   "categories_file": "categories.json",
   "items": [

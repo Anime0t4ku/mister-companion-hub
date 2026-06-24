@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.06.23",
+  "catalog_version": "2026.06.24",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -98,8 +98,8 @@
       "description": "3S-ARM brings Street Fighter III: 3rd Strike support to MiSTer through the 3S-ARM core and its required game resources.",
       "visibility": "public",
       "sort_order": 10,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/3s_arm.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/3s_arm.png",
       "gallery": []
     },
     {
@@ -404,8 +404,8 @@
       "description": "A personal wallpaper pack by Anime0t4ku, made without fixed constraints. Themes can vary across anime, movies, games, systems, comics, and more.",
       "visibility": "public",
       "sort_order": 40,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/wallpaper_packs.png",
+      "thumbnail": "assets/thumbnails/wallpaper_packs/anime0t4ku_wallpapers.png",
+      "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/anime0t4ku_wallpapers.png",
       "gallery": []
     }
   ]
