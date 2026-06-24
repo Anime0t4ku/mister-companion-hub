@@ -324,8 +324,8 @@
       "description": "Syncthing is a peer-to-peer file synchronization tool. On MiSTer, it can be used to sync folders such as saves or other files with your PC, NAS, or other devices.",
       "visibility": "public",
       "sort_order": 100,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/syncthing.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/syncthing.png",
       "gallery": []
     },
     {
