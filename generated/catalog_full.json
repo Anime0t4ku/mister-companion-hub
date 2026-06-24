@@ -292,8 +292,8 @@
       "description": "ftp_save_sync automatically syncs your MiSTer saves to a remote FTP or SFTP server. It can also sync savestates and keep saves shared between multiple MiSTers.",
       "visibility": "public",
       "sort_order": 80,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/ftp_save_sync.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/ftp_save_sync.png",
       "gallery": []
     },
     {
