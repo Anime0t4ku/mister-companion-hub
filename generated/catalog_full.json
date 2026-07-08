@@ -151,8 +151,8 @@
       ],
       "visibility": "public",
       "sort_order": 25,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/mister_quake.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/mister_quake.png",
       "gallery": []
     },
     {
