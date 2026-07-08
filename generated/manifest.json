@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-24T14:13:45.358111Z",
-  "catalog_version": "2026.06.24",
+  "generated_at": "2026-07-08T09:16:37.261298Z",
+  "catalog_version": "2026.07.08",
   "files": [
     {
       "path": "generated/catalog_full.json",
-      "sha256": "62d2e354b5ec175742198c178a2cf2f984b3dfff876593ed1139b2082798b0da",
-      "size": 17363
+      "sha256": "ad1a763748db11988c0a50a9eea2f84e3939057600f6beb3f8fd0e3eb20bde96",
+      "size": 17984
     },
     {
       "path": "generated/catalog_min.json",
-      "sha256": "3c84eaaf1c3200a7891e78b43639efa8c53b183ed7ccaee0d17eac925cd7827d",
-      "size": 9360
+      "sha256": "1efbfbaf2bc694c1594bb1b8f9cba85213e3e20f288ea83aa0647483b423d85f",
+      "size": 9690
     },
     {
       "path": "generated/categories_with_counts.json",
-      "sha256": "a74b1ad4ca2530558c4971260b52536c7cd8f646c6e3416fd23656ee5b3bd1ae",
+      "sha256": "a735aea47719a898c0944bd3836403d222321604396706dbbde88818061c1aff",
       "size": 1235
     },
     {
       "path": "generated/known_handlers.json",
-      "sha256": "20f220b99cafd0f0863e4c4343a98259df27f81fefcb77b60f2d80b9f1ebbae1",
-      "size": 455
+      "sha256": "495372f85b76ec5599502bccd9f49fadc4ce061361e12cda524e2eae70f67368",
+      "size": 475
     },
     {
       "path": "generated/manifest.json",
-      "sha256": "a21cbc3ee109e35a571e4c42e771b9bb74a1c635c60cd5ff2372666b3f72481c",
-      "size": 1085
+      "sha256": "d957e0dcce0814825d1fe84cfa483388d82b28cc4cc5b985b4b9467f6dc2b4a3",
+      "size": 1122
     },
     {
       "path": "catalog.json",
-      "sha256": "6940b19ec9bc8178466ca2a42cb3e7b4873c397f1bcb1ffa582d25a84582782d",
-      "size": 1182
+      "sha256": "ba5838021b4a6c7e5cf68cc0ce9b7c3da80b2c6054f3679405f6599f887289de",
+      "size": 1220
     }
   ]
 }

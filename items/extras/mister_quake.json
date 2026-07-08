@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "mister_quake",
+  "category": "extras",
+  "type": "extra",
+  "handler": "mister_quake",
+  "name": "MiSTer Quake",
+  "author": "neofreno",
+  "date_added": "2026-07-08T00:00:00Z",
+  "description": "MiSTer Quake installs the Quake port for MiSTer. Provide your own PAK0.PAK and optional PAK1.PAK game data files.",
+  "tags": [
+    "quake",
+    "port",
+    "fps"
+  ],
+  "visibility": "public",
+  "sort_order": 25
+}
