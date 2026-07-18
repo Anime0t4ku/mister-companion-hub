@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.08",
+  "catalog_version": "2026.07.18",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-07-08",
+  "updated": "2026-07-18",
   "minimum_app_version": "6.0.0",
   "categories_file": "categories.json",
   "items": [
@@ -11,6 +11,7 @@
     "items/cores/paprium_megadrive.json",
     "items/cores/retroachievement_cores.json",
     "items/extras/3s_arm.json",
+    "items/extras/dreamster.json",
     "items/extras/mister_quake.json",
     "items/extras/sonic_mania_mister.json",
     "items/extras/zaparoo_frontend.json",

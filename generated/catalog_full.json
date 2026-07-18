@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.08",
+  "catalog_version": "2026.07.18",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-07-08",
+  "updated": "2026-07-18",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -169,6 +169,22 @@
       "sort_order": 30,
       "thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
       "resolved_thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "dreamster",
+      "category": "extras",
+      "type": "extra",
+      "handler": "dreamster",
+      "name": "DreamSTer",
+      "author": "skmp",
+      "date_added": "2026-07-18T00:00:00Z",
+      "description": "DreamSTer is an emulation core that uses partial FPGA output to run Dreamcast software on MiSTer. It is currently in pre-release.",
+      "visibility": "public",
+      "sort_order": 40,
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/extras.png",
       "gallery": []
     },
     {

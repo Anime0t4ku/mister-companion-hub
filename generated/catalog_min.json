@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.08",
-  "updated": "2026-07-08",
+  "catalog_version": "2026.07.18",
+  "updated": "2026-07-18",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -98,6 +98,18 @@
       "resolved_thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
       "visibility": "public",
       "sort_order": 30
+    },
+    {
+      "id": "dreamster",
+      "category": "extras",
+      "type": "extra",
+      "name": "DreamSTer",
+      "author": "skmp",
+      "date_added": "2026-07-18T00:00:00Z",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/extras.png",
+      "visibility": "public",
+      "sort_order": 40
     },
     {
       "id": "8bit_table_tennis",

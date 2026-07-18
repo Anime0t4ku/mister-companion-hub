@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "dreamster",
+  "category": "extras",
+  "type": "extra",
+  "handler": "dreamster",
+  "name": "DreamSTer",
+  "author": "skmp",
+  "date_added": "2026-07-18T00:00:00Z",
+  "description": "DreamSTer is an emulation core that uses partial FPGA output to run Dreamcast software on MiSTer. It is currently in pre-release.",
+  "visibility": "public",
+  "sort_order": 40
+}
