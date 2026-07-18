@@ -183,8 +183,8 @@
       "description": "DreamSTer is an emulation core that uses partial FPGA output to run Dreamcast software on MiSTer. It is currently in pre-release.",
       "visibility": "public",
       "sort_order": 40,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/dreamster.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/dreamster.png",
       "gallery": []
     },
     {

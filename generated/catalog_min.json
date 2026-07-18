@@ -106,8 +106,8 @@
       "name": "DreamSTer",
       "author": "skmp",
       "date_added": "2026-07-18T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/dreamster.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/dreamster.png",
       "visibility": "public",
       "sort_order": 40
     },
