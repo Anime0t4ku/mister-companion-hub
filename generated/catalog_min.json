@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.18",
-  "updated": "2026-07-18",
+  "catalog_version": "2026.07.19",
+  "updated": "2026-07-19",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -86,6 +86,18 @@
       "resolved_thumbnail": "assets/thumbnails/extras/mister_quake.png",
       "visibility": "public",
       "sort_order": 25
+    },
+    {
+      "id": "mister_duke3d",
+      "category": "extras",
+      "type": "extra",
+      "name": "MiSTer Duke3D",
+      "author": "neofreno",
+      "date_added": "2026-07-19T00:00:00Z",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/extras.png",
+      "visibility": "public",
+      "sort_order": 30
     },
     {
       "id": "zaparoo_frontend",

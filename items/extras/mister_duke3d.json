@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "mister_duke3d",
+  "category": "extras",
+  "type": "extra",
+  "handler": "mister_duke3d",
+  "name": "MiSTer Duke3D",
+  "author": "neofreno",
+  "date_added": "2026-07-19T00:00:00Z",
+  "description": "MiSTer Duke3D installs the Duke Nukem 3D port for MiSTer. Provide your own DUKE3D.GRP game data file.",
+  "tags": [
+    "duke3d",
+    "port",
+    "fps"
+  ],
+  "visibility": "public",
+  "sort_order": 30
+}
