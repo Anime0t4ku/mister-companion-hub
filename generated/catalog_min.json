@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.19",
-  "updated": "2026-07-19",
+  "catalog_version": "2026.07.21",
+  "updated": "2026-07-21",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -38,6 +38,18 @@
       "resolved_thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
       "visibility": "public",
       "sort_order": 21
+    },
+    {
+      "id": "physical_disc_cores",
+      "category": "cores",
+      "type": "core",
+      "name": "Physical Disc Cores",
+      "author": "Anime0t4ku",
+      "date_added": "2026-07-21T00:00:00Z",
+      "thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
+      "visibility": "public",
+      "sort_order": 22
     },
     {
       "id": "retroachievement_cores",
