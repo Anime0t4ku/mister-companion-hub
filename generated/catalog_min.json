@@ -2,6 +2,7 @@
   "schema_version": 1,
   "catalog_version": "2026.07.29",
   "updated": "2026-07-29",
+
   "items": [
     {
       "id": "mms2_gb_core",
@@ -38,6 +39,18 @@
       "resolved_thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
       "visibility": "public",
       "sort_order": 21
+    },
+    {
+      "id": "physical_disc_cores",
+      "category": "cores",
+      "type": "core",
+      "name": "Physical Disc Cores",
+      "author": "Anime0t4ku",
+      "date_added": "2026-07-21T00:00:00Z",
+      "thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
+      "visibility": "public",
+      "sort_order": 22
     },
     {
       "id": "retroachievement_cores",
@@ -86,6 +99,18 @@
       "resolved_thumbnail": "assets/thumbnails/extras/mister_quake.png",
       "visibility": "public",
       "sort_order": 25
+    },
+    {
+      "id": "mister_duke3d",
+      "category": "extras",
+      "type": "extra",
+      "name": "MiSTer Duke3D",
+      "author": "neofreno",
+      "date_added": "2026-07-19T00:00:00Z",
+      "thumbnail": "assets/thumbnails/extras/mister_duke3d.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/mister_duke3d.png",
+      "visibility": "public",
+      "sort_order": 30
     },
     {
       "id": "zaparoo_frontend",

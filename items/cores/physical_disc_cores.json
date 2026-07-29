@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "physical_disc_cores",
+  "category": "cores",
+  "type": "core",
+  "handler": "physical_disc_cores",
+  "name": "Physical Disc Cores",
+  "author": "Anime0t4ku",
+  "date_added": "2026-07-21T00:00:00Z",
+  "description": "Adds experimental physical CD support to selected MiSTer cores using compatible external USB CD/DVD drives. This is a work in progress: compatibility and performance vary by drive, and PSX may stutter on many devices. Performance will improve over time, with more cores planned.",
+  "visibility": "public",
+  "sort_order": 22
+}

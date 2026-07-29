@@ -3,6 +3,7 @@
   "catalog_version": "2026.07.29",
   "name": "MiSTer Companion Hub",
   "updated": "2026-07-29",
+
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -88,6 +89,22 @@
     },
     {
       "schema_version": 1,
+      "id": "physical_disc_cores",
+      "category": "cores",
+      "type": "core",
+      "handler": "physical_disc_cores",
+      "name": "Physical Disc Cores",
+      "author": "Anime0t4ku",
+      "date_added": "2026-07-21T00:00:00Z",
+      "description": "Adds experimental physical CD support to selected MiSTer cores using compatible external USB CD/DVD drives. This is a work in progress: compatibility and performance vary by drive, and PSX may stutter on many devices. Performance will improve over time, with more cores planned.",
+      "visibility": "public",
+      "sort_order": 22,
+      "thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
+      "resolved_thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
       "id": "retroachievement_cores",
       "category": "cores",
       "type": "core",
@@ -153,6 +170,27 @@
       "sort_order": 25,
       "thumbnail": "assets/thumbnails/extras/mister_quake.png",
       "resolved_thumbnail": "assets/thumbnails/extras/mister_quake.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "mister_duke3d",
+      "category": "extras",
+      "type": "extra",
+      "handler": "mister_duke3d",
+      "name": "MiSTer Duke3D",
+      "author": "neofreno",
+      "date_added": "2026-07-19T00:00:00Z",
+      "description": "MiSTer Duke3D installs the Duke Nukem 3D port for MiSTer. Provide your own DUKE3D.GRP game data file.",
+      "tags": [
+        "duke3d",
+        "port",
+        "fps"
+      ],
+      "visibility": "public",
+      "sort_order": 30,
+      "thumbnail": "assets/thumbnails/extras/mister_duke3d.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/mister_duke3d.png",
       "gallery": []
     },
     {

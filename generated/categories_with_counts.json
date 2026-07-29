@@ -2,6 +2,7 @@
   "schema_version": 1,
   "catalog_version": "2026.07.29",
   "updated": "2026-07-29",
+
   "categories": [
     {
       "id": "scripts",
@@ -15,7 +16,7 @@
       "name": "Cores",
       "description": "Custom and alternative cores that add features, improve compatibility, or offer different behavior from the standard MiSTer cores.",
       "sort_order": 20,
-      "count": 4
+      "count": 5
     },
     {
       "id": "extras",

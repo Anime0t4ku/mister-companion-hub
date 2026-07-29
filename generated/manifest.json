@@ -16,6 +16,7 @@
     {
       "path": "generated/categories_with_counts.json",
       "sha256": "95bc09ecd52bfe82e0b6e260b93bc7116a030ad321b7530d8ed19f1d6ffe99b5",
+
       "size": 1235
     },
     {
@@ -26,12 +27,14 @@
     {
       "path": "generated/manifest.json",
       "sha256": "3c4623f7a7f0cfd4f9feb2be155d904f8ee4adbe66e1744aebaabf8fe4fc7756",
+
       "size": 1086
     },
     {
       "path": "catalog.json",
       "sha256": "4ae0cb406ddeb5a43d0e7b82988aec7c6ef6aef974038f4d04d7386f30e2a3a3",
       "size": 1364
+
     }
   ]
 }
