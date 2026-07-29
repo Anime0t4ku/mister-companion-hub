@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.18",
-  "updated": "2026-07-18",
+  "catalog_version": "2026.07.29",
+  "updated": "2026-07-29",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -110,6 +110,18 @@
       "resolved_thumbnail": "assets/thumbnails/extras/dreamster.png",
       "visibility": "public",
       "sort_order": 40
+    },
+    {
+      "id": "solarus",
+      "category": "extras",
+      "type": "extra",
+      "name": "Solarus",
+      "author": "Solarus Team",
+      "date_added": "2026-07-30T00:00:00Z",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/extras.png",
+      "visibility": "public",
+      "sort_order": 160
     },
     {
       "id": "8bit_table_tennis",
@@ -254,6 +266,30 @@
       "resolved_thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
       "visibility": "public",
       "sort_order": 110
+    },
+    {
+      "id": "misterfin",
+      "category": "scripts",
+      "type": "script",
+      "name": "MiSTerFin",
+      "author": "MiSTerFin project",
+      "date_added": "2026-07-30T00:00:00Z",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "visibility": "public",
+      "sort_order": 120
+    },
+    {
+      "id": "user_profiles",
+      "category": "scripts",
+      "type": "script",
+      "name": "User Profiles",
+      "author": "BertSVG",
+      "date_added": "2026-07-30T00:00:00Z",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "visibility": "public",
+      "sort_order": 130
     },
     {
       "id": "ranny_snice_wallpapers",

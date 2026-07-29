@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.18",
+  "catalog_version": "2026.07.29",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-07-18",
+  "updated": "2026-07-29",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -185,6 +185,22 @@
       "sort_order": 40,
       "thumbnail": "assets/thumbnails/extras/dreamster.png",
       "resolved_thumbnail": "assets/thumbnails/extras/dreamster.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "solarus",
+      "category": "extras",
+      "type": "extra",
+      "handler": "solarus",
+      "name": "Solarus",
+      "author": "Solarus Team",
+      "date_added": "2026-07-30T00:00:00Z",
+      "description": "A port of the Solarus 2D action-RPG engine to MiSTer FPGA. Solarus is the open-source Zelda-like engine behind The Legend of Zelda: Mystery of Solarus DX, Ocean's Heart, Yarntown, and many more games.",
+      "visibility": "public",
+      "sort_order": 160,
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/extras.png",
       "gallery": []
     },
     {
@@ -395,6 +411,38 @@
       "sort_order": 110,
       "thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "misterfin",
+      "category": "scripts",
+      "type": "script",
+      "handler": "misterfin",
+      "name": "MiSTerFin",
+      "author": "MiSTerFin project",
+      "date_added": "2026-07-30T00:00:00Z",
+      "description": "MiSTerFin is a Jellyfin media client for MiSTer. It runs as ARM software from the Scripts menu on the standard menu core, draws through the regular MiSTer framebuffer, and plays media transcoded by Jellyfin through its bundled mplayer-arm.",
+      "visibility": "public",
+      "sort_order": 120,
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "user_profiles",
+      "category": "scripts",
+      "type": "script",
+      "handler": "user_profiles",
+      "name": "User Profiles",
+      "author": "BertSVG",
+      "date_added": "2026-07-30T00:00:00Z",
+      "description": "Adds user profiles to the MiSTer FPGA Project.",
+      "visibility": "public",
+      "sort_order": 130,
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
       "gallery": []
     },
     {

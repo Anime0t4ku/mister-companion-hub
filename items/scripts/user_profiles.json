@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "user_profiles",
+  "category": "scripts",
+  "type": "script",
+  "handler": "user_profiles",
+  "name": "User Profiles",
+  "author": "BertSVG",
+  "date_added": "2026-07-30T00:00:00Z",
+  "description": "Adds user profiles to the MiSTer FPGA Project.",
+  "visibility": "public",
+  "sort_order": 130
+}

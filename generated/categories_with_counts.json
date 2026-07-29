@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.18",
-  "updated": "2026-07-18",
+  "catalog_version": "2026.07.29",
+  "updated": "2026-07-29",
   "categories": [
     {
       "id": "scripts",
       "name": "Scripts",
       "description": "Add extra functionality to your standard MiSTer FPGA setup through useful scripts and utilities.",
       "sort_order": 10,
-      "count": 11
+      "count": 13
     },
     {
       "id": "cores",
@@ -22,7 +22,7 @@
       "name": "Extras",
       "description": "MiSTer ARM ports, frontends, and additional tools that expand what your MiSTer setup can do.",
       "sort_order": 30,
-      "count": 5
+      "count": 6
     },
     {
       "id": "roms",

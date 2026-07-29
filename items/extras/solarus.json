@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "solarus",
+  "category": "extras",
+  "type": "extra",
+  "handler": "solarus",
+  "name": "Solarus",
+  "author": "gmcnaught",
+  "date_added": "2026-07-30T00:00:00Z",
+  "description": "A port of the Solarus 2D action-RPG engine to MiSTer FPGA. Solarus is the open-source Zelda-like engine behind The Legend of Zelda: Mystery of Solarus DX, Ocean's Heart, Yarntown, and many more games.",
+  "visibility": "public",
+  "sort_order": 160
+}
