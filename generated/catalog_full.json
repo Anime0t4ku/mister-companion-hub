@@ -3,7 +3,6 @@
   "catalog_version": "2026.07.29",
   "name": "MiSTer Companion Hub",
   "updated": "2026-07-29",
-
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -232,13 +231,13 @@
       "type": "extra",
       "handler": "solarus",
       "name": "Solarus",
-      "author": "Solarus Team",
+      "author": "gmcnaught",
       "date_added": "2026-07-30T00:00:00Z",
       "description": "A port of the Solarus 2D action-RPG engine to MiSTer FPGA. Solarus is the open-source Zelda-like engine behind The Legend of Zelda: Mystery of Solarus DX, Ocean's Heart, Yarntown, and many more games.",
       "visibility": "public",
       "sort_order": 160,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/solarus.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/solarus.png",
       "gallery": []
     },
     {
@@ -458,13 +457,13 @@
       "type": "script",
       "handler": "misterfin",
       "name": "MiSTerFin",
-      "author": "MiSTerFin project",
+      "author": "puddingstudio",
       "date_added": "2026-07-30T00:00:00Z",
       "description": "MiSTerFin is a Jellyfin media client for MiSTer. It runs as ARM software from the Scripts menu on the standard menu core, draws through the regular MiSTer framebuffer, and plays media transcoded by Jellyfin through its bundled mplayer-arm.",
       "visibility": "public",
       "sort_order": 120,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/misterfin.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/misterfin.png",
       "gallery": []
     },
     {
@@ -479,8 +478,8 @@
       "description": "Adds user profiles to the MiSTer FPGA Project.",
       "visibility": "public",
       "sort_order": 130,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/user_profiles.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/user_profiles.png",
       "gallery": []
     },
     {

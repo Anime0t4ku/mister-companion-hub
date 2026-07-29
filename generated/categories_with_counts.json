@@ -2,7 +2,6 @@
   "schema_version": 1,
   "catalog_version": "2026.07.29",
   "updated": "2026-07-29",
-
   "categories": [
     {
       "id": "scripts",
@@ -23,7 +22,7 @@
       "name": "Extras",
       "description": "MiSTer ARM ports, frontends, and additional tools that expand what your MiSTer setup can do.",
       "sort_order": 30,
-      "count": 6
+      "count": 7
     },
     {
       "id": "roms",

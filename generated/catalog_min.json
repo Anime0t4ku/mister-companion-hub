@@ -2,7 +2,6 @@
   "schema_version": 1,
   "catalog_version": "2026.07.29",
   "updated": "2026-07-29",
-
   "items": [
     {
       "id": "mms2_gb_core",
@@ -141,10 +140,10 @@
       "category": "extras",
       "type": "extra",
       "name": "Solarus",
-      "author": "Solarus Team",
+      "author": "gmcnaught",
       "date_added": "2026-07-30T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/extras.png",
+      "thumbnail": "assets/thumbnails/extras/solarus.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/solarus.png",
       "visibility": "public",
       "sort_order": 160
     },
@@ -297,10 +296,10 @@
       "category": "scripts",
       "type": "script",
       "name": "MiSTerFin",
-      "author": "MiSTerFin project",
+      "author": "puddingstudio",
       "date_added": "2026-07-30T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/misterfin.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/misterfin.png",
       "visibility": "public",
       "sort_order": 120
     },
@@ -311,8 +310,8 @@
       "name": "User Profiles",
       "author": "BertSVG",
       "date_added": "2026-07-30T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/user_profiles.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/user_profiles.png",
       "visibility": "public",
       "sort_order": 130
     },
