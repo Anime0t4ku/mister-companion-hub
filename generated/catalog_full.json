@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.29",
+  "catalog_version": "2026.07.31",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-07-29",
+  "updated": "2026-07-31",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -95,7 +95,7 @@
       "name": "Physical Disc Cores",
       "author": "Anime0t4ku",
       "date_added": "2026-07-21T00:00:00Z",
-      "description": "Adds experimental physical CD support to selected MiSTer cores using compatible external USB CD/DVD drives. This is a work in progress: compatibility and performance vary by drive, and PSX may stutter on many devices. Performance will improve over time, with more cores planned.",
+      "description": "Adds physical CD support to selected MiSTer cores using compatible external USB CD/DVD drives. Compatibility and performance may vary depending on the drive.",
       "visibility": "public",
       "sort_order": 22,
       "thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
