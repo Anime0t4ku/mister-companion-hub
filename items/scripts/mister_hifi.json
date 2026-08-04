@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "mister_hifi",
+  "category": "scripts",
+  "type": "script",
+  "handler": "mister_hifi",
+  "name": "MiSTer Hi-Fi",
+  "author": "Anime0t4ku",
+  "date_added": "2026-08-04T00:00:00Z",
+  "description": "A Music Player with lossless audio formats support for MiSTer FPGA.",
+  "visibility": "public",
+  "sort_order": 150
+}

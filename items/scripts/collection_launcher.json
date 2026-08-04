@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "collection_launcher",
+  "category": "scripts",
+  "type": "script",
+  "handler": "collection_launcher",
+  "name": "Collection Launcher",
+  "author": "Anime0t4ku",
+  "date_added": "2026-08-04T00:00:00Z",
+  "description": "Launch a GUI for user defined Game Collections.",
+  "visibility": "public",
+  "sort_order": 140
+}

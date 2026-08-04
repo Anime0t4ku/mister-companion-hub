@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.31",
-  "updated": "2026-07-31",
+  "catalog_version": "2026.08.04",
+  "updated": "2026-08-04",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -314,6 +314,30 @@
       "resolved_thumbnail": "assets/thumbnails/scripts/user_profiles.png",
       "visibility": "public",
       "sort_order": 130
+    },
+    {
+      "id": "collection_launcher",
+      "category": "scripts",
+      "type": "script",
+      "name": "Collection Launcher",
+      "author": "Anime0t4ku",
+      "date_added": "2026-08-04T00:00:00Z",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "visibility": "public",
+      "sort_order": 140
+    },
+    {
+      "id": "mister_hifi",
+      "category": "scripts",
+      "type": "script",
+      "name": "MiSTer Hi-Fi",
+      "author": "Anime0t4ku",
+      "date_added": "2026-08-04T00:00:00Z",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "visibility": "public",
+      "sort_order": 150
     },
     {
       "id": "ranny_snice_wallpapers",

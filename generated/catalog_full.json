@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.07.31",
+  "catalog_version": "2026.08.04",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-07-31",
+  "updated": "2026-08-04",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -480,6 +480,38 @@
       "sort_order": 130,
       "thumbnail": "assets/thumbnails/scripts/user_profiles.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/user_profiles.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "collection_launcher",
+      "category": "scripts",
+      "type": "script",
+      "handler": "collection_launcher",
+      "name": "Collection Launcher",
+      "author": "Anime0t4ku",
+      "date_added": "2026-08-04T00:00:00Z",
+      "description": "Launch a GUI for user defined Game Collections.",
+      "visibility": "public",
+      "sort_order": 140,
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "mister_hifi",
+      "category": "scripts",
+      "type": "script",
+      "handler": "mister_hifi",
+      "name": "MiSTer Hi-Fi",
+      "author": "Anime0t4ku",
+      "date_added": "2026-08-04T00:00:00Z",
+      "description": "A Music Player with lossless audio formats support for MiSTer FPGA.",
+      "visibility": "public",
+      "sort_order": 150,
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
       "gallery": []
     },
     {
