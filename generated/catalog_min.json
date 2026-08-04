@@ -322,8 +322,8 @@
       "name": "Collection Launcher",
       "author": "Anime0t4ku",
       "date_added": "2026-08-04T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/collection_launcher.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/collection_launcher.png",
       "visibility": "public",
       "sort_order": 140
     },
@@ -334,8 +334,8 @@
       "name": "MiSTer Hi-Fi",
       "author": "Anime0t4ku",
       "date_added": "2026-08-04T00:00:00Z",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
       "visibility": "public",
       "sort_order": 150
     },

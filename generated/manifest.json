@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-04T16:53:12.934957Z",
+  "generated_at": "2026-08-04T17:08:16.962866Z",
   "catalog_version": "2026.08.04",
   "files": [
     {
       "path": "generated/catalog_full.json",
-      "sha256": "53c19bcef689f255600886360e22f5f7fac86f2e9ea823cca52b3302e9ac3e4a",
-      "size": 22940
+      "sha256": "58fe43935070250b61fc0b2fcbea0c9017c4eb2908d382539248b04270144ed6",
+      "size": 23062
     },
     {
       "path": "generated/catalog_min.json",
-      "sha256": "e32fade5781a43d63bacb9a39e97f36068f116c630c04f269a728622c1a155d4",
-      "size": 12735
+      "sha256": "4c25fd59f62064432382f0d1a35625f7e9d402302b121e0d596533325227fbfe",
+      "size": 12857
     },
     {
       "path": "generated/categories_with_counts.json",
@@ -25,7 +25,7 @@
     },
     {
       "path": "generated/manifest.json",
-      "sha256": "82de3c394b327417ef701814b7b4027a131365b287e881735413476635af7eeb",
+      "sha256": "9c1651de089ae0744acc382fe12c176ed698cff8afb88e19cdc4d2b1e0b0199d",
       "size": 1086
     },
     {

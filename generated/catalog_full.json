@@ -494,8 +494,8 @@
       "description": "Launch a GUI for user defined Game Collections.",
       "visibility": "public",
       "sort_order": 140,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/collection_launcher.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/collection_launcher.png",
       "gallery": []
     },
     {
@@ -510,8 +510,8 @@
       "description": "A Music Player with lossless audio formats support for MiSTer FPGA.",
       "visibility": "public",
       "sort_order": 150,
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
       "gallery": []
     },
     {
