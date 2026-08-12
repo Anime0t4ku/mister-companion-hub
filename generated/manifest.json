@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T12:31:52.865714Z",
+  "generated_at": "2026-08-12T12:33:13.964162Z",
   "catalog_version": "2026.08.12",
   "files": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "path": "generated/manifest.json",
-      "sha256": "542b4c6291f4c7c2abd74806e9e0dcc9c933214449079d8439f7e6131be4b7e6",
+      "sha256": "b26d0db4aa0cad43e93818def32c68e3604b0ffab63ef873ef4951f4b2a88c96",
       "size": 1086
     },
     {
