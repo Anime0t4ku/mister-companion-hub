@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "auto_time automatically detects your timezone and applies the correct date and time to your MiSTer.",
   "visibility": "public",
-  "sort_order": 50
+  "sort_order": 50,
+  "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts"
 }

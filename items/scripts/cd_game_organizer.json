@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "cd_game_organizer organizes CD-based games into their own folders, helping keep virtual memory cards separated per game.",
   "visibility": "public",
-  "sort_order": 60
+  "sort_order": 60,
+  "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts"
 }

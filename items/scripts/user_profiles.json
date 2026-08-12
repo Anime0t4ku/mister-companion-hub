@@ -9,5 +9,6 @@
   "date_added": "2026-07-30T00:00:00Z",
   "description": "Adds user profiles to the MiSTer FPGA Project.",
   "visibility": "public",
-  "sort_order": 130
+  "sort_order": 130,
+  "project_url": "https://github.com/BertSVG/MiSTer_FPGA_User_Profiles"
 }

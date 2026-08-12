@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "Installs Pezz82’s customized MegaDrive core for running Paprium. This only installs the core and launcher. Provide your own ROM and make sure you use the correct ROM version with WAV files, not the MP3 files.",
   "visibility": "public",
-  "sort_order": 20
+  "sort_order": 20,
+  "project_url": "https://github.com/MisterPezz82/Paprium_MegaDrive_MiSTer"
 }

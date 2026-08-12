@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.04",
+  "catalog_version": "2026.08.12",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-08-04",
+  "updated": "2026-08-12",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -50,6 +50,7 @@
       "description": "Installs Heber’s custom GB core for MMS2 with physical cartridge support.\n\nThe core is installed in a separate custom location and adds a MiSTer home screen shortcut for directly loading cartridges. This does not affect the original Game Boy core, and regular ROMs should still be launched with the standard Game Boy core.",
       "visibility": "public",
       "sort_order": 10,
+      "project_url": "https://github.com/Heber-co-uk/Gameboy_MiSTer_Cart",
       "thumbnail": "assets/thumbnails/cores/mms2_gb_core.png",
       "resolved_thumbnail": "assets/thumbnails/cores/mms2_gb_core.png",
       "gallery": []
@@ -66,6 +67,7 @@
       "description": "Installs Pezz82’s customized MegaDrive core for running Paprium. This only installs the core and launcher. Provide your own ROM and make sure you use the correct ROM version with WAV files, not the MP3 files.",
       "visibility": "public",
       "sort_order": 20,
+      "project_url": "https://github.com/MisterPezz82/Paprium_MegaDrive_MiSTer",
       "thumbnail": "assets/thumbnails/cores/paprium_megadrive.png",
       "resolved_thumbnail": "assets/thumbnails/cores/paprium_megadrive.png",
       "gallery": []
@@ -82,6 +84,7 @@
       "description": "Installs MegaVGMDrive, a MegaDrive/Genesis VGM playback core for MiSTer. This only installs the core, launcher, and game folder structure.",
       "visibility": "public",
       "sort_order": 21,
+      "project_url": "https://github.com/dai-VGM/MegaVGMDrive",
       "thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
       "resolved_thumbnail": "assets/thumbnails/cores/megavgmdrive.png",
       "gallery": []
@@ -98,6 +101,7 @@
       "description": "Adds physical CD support to selected MiSTer cores using compatible external USB CD/DVD drives. Compatibility and performance may vary depending on the drive.",
       "visibility": "public",
       "sort_order": 22,
+      "project_url": "https://github.com/Anime0t4ku/Main_MiSTer_Physical_Disc",
       "thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
       "resolved_thumbnail": "assets/thumbnails/cores/physical_disc_cores.png",
       "gallery": []
@@ -114,6 +118,7 @@
       "description": "RetroAchievement Cores adds RetroAchievements-enabled MiSTer cores and the required MiSTer_RA support files. It uses MGL launchers so your normal cores remain untouched.",
       "visibility": "public",
       "sort_order": 30,
+      "project_url": "https://github.com/odelot/Main_MiSTer",
       "thumbnail": "assets/thumbnails/cores/retroachievement_cores.png",
       "resolved_thumbnail": "assets/thumbnails/cores/retroachievement_cores.png",
       "gallery": []
@@ -130,6 +135,7 @@
       "description": "3S-ARM brings Street Fighter III: 3rd Strike support to MiSTer through the 3S-ARM core and its required game resources.",
       "visibility": "public",
       "sort_order": 10,
+      "project_url": "https://github.com/kimchiman52/3s-mister-arm",
       "thumbnail": "assets/thumbnails/extras/3s_arm.png",
       "resolved_thumbnail": "assets/thumbnails/extras/3s_arm.png",
       "gallery": []
@@ -146,6 +152,7 @@
       "description": "Sonic Mania MiSTer lets your MiSTer run Sonic Mania using the MiSTer port, with support for the required Data.rsdk game file.",
       "visibility": "public",
       "sort_order": 20,
+      "project_url": "https://github.com/kimchiman52/sonic-mania-mister",
       "thumbnail": "assets/thumbnails/extras/sonic_mania_mister.png",
       "resolved_thumbnail": "assets/thumbnails/extras/sonic_mania_mister.png",
       "gallery": []
@@ -167,6 +174,7 @@
       ],
       "visibility": "public",
       "sort_order": 25,
+      "project_url": "https://github.com/neofreno/Mister_Quake",
       "thumbnail": "assets/thumbnails/extras/mister_quake.png",
       "resolved_thumbnail": "assets/thumbnails/extras/mister_quake.png",
       "gallery": []
@@ -188,6 +196,7 @@
       ],
       "visibility": "public",
       "sort_order": 30,
+      "project_url": "https://github.com/neofreno/Mister_Duke3d",
       "thumbnail": "assets/thumbnails/extras/mister_duke3d.png",
       "resolved_thumbnail": "assets/thumbnails/extras/mister_duke3d.png",
       "gallery": []
@@ -204,6 +213,7 @@
       "description": "Zaparoo Frontend is a MiSTer frontend that provides a controller-friendly interface for browsing and launching your games, media, and other MiSTer content, with artwork support.\n\nMake sure you are using the latest version of Zaparoo before installing or updating Zaparoo Frontend.",
       "visibility": "public",
       "sort_order": 30,
+      "project_url": "https://github.com/ZaparooProject/zaparoo-frontend",
       "thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
       "resolved_thumbnail": "assets/thumbnails/extras/zaparoo_frontend.png",
       "gallery": []
@@ -220,6 +230,7 @@
       "description": "DreamSTer is an emulation core that uses partial FPGA output to run Dreamcast software on MiSTer. It is currently in pre-release.",
       "visibility": "public",
       "sort_order": 40,
+      "project_url": "https://github.com/skmp/DreamSTer",
       "thumbnail": "assets/thumbnails/extras/dreamster.png",
       "resolved_thumbnail": "assets/thumbnails/extras/dreamster.png",
       "gallery": []
@@ -236,6 +247,7 @@
       "description": "A port of the Solarus 2D action-RPG engine to MiSTer FPGA. Solarus is the open-source Zelda-like engine behind The Legend of Zelda: Mystery of Solarus DX, Ocean's Heart, Yarntown, and many more games.",
       "visibility": "public",
       "sort_order": 160,
+      "project_url": "https://github.com/gmcnaught/solarus-mister",
       "thumbnail": "assets/thumbnails/extras/solarus.png",
       "resolved_thumbnail": "assets/thumbnails/extras/solarus.png",
       "gallery": []
@@ -286,6 +298,7 @@
       "description": "update_all keeps your MiSTer FPGA setup up to date by downloading cores, scripts, databases, tools, and optional community content from configured update sources.",
       "visibility": "public",
       "sort_order": 10,
+      "project_url": "https://github.com/theypsilon/Update_All_MiSTer",
       "thumbnail": "assets/thumbnails/scripts/update_all.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/update_all.png",
       "gallery": []
@@ -302,6 +315,7 @@
       "description": "Zaparoo lets you launch games, media, scripts, and other MiSTer content by scanning NFC cards, tags, barcodes, or other supported readers. It also allows MiSTer Companion to launch games remotely from the ZapScripts tab.",
       "visibility": "public",
       "sort_order": 20,
+      "project_url": "https://github.com/ZaparooProject/zaparoo-core",
       "thumbnail": "assets/thumbnails/scripts/zaparoo.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/zaparoo.png",
       "gallery": []
@@ -318,6 +332,7 @@
       "description": "migrate_sd helps migrate an existing MiSTer SD card setup to another SD card, such as when moving to a larger card.",
       "visibility": "public",
       "sort_order": 30,
+      "project_url": "https://github.com/Natrox/MiSTer_Utils_Natrox",
       "thumbnail": "assets/thumbnails/scripts/migrate_sd.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/migrate_sd.png",
       "gallery": []
@@ -334,6 +349,7 @@
       "description": "cifs_mount connects your MiSTer to a shared network folder, such as a NAS or PC share, so games and files can be accessed over your local network.",
       "visibility": "public",
       "sort_order": 40,
+      "project_url": "https://github.com/MiSTer-devel/Scripts_MiSTer",
       "thumbnail": "assets/thumbnails/scripts/cifs_mount.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/cifs_mount.png",
       "gallery": []
@@ -350,6 +366,7 @@
       "description": "auto_time automatically detects your timezone and applies the correct date and time to your MiSTer.",
       "visibility": "public",
       "sort_order": 50,
+      "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts",
       "thumbnail": "assets/thumbnails/scripts/auto_time.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/auto_time.png",
       "gallery": []
@@ -366,6 +383,7 @@
       "description": "cd_game_organizer organizes CD-based games into their own folders, helping keep virtual memory cards separated per game.",
       "visibility": "public",
       "sort_order": 60,
+      "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts",
       "thumbnail": "assets/thumbnails/scripts/cd_game_organizer.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/cd_game_organizer.png",
       "gallery": []
@@ -382,6 +400,7 @@
       "description": "DAV Browser lets your MiSTer browse a WebDAV server, such as a NAS or remote file server, download ROMs or files, and optionally launch them after downloading.",
       "visibility": "public",
       "sort_order": 70,
+      "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts",
       "thumbnail": "assets/thumbnails/scripts/dav_browser.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/dav_browser.png",
       "gallery": []
@@ -398,6 +417,7 @@
       "description": "ftp_save_sync automatically syncs your MiSTer saves to a remote FTP or SFTP server. It can also sync savestates and keep saves shared between multiple MiSTers.",
       "visibility": "public",
       "sort_order": 80,
+      "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts",
       "thumbnail": "assets/thumbnails/scripts/ftp_save_sync.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/ftp_save_sync.png",
       "gallery": []
@@ -414,6 +434,7 @@
       "description": "static_wallpaper lets your MiSTer use a fixed menu wallpaper instead of the default changing wallpaper behavior.",
       "visibility": "public",
       "sort_order": 90,
+      "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts",
       "thumbnail": "assets/thumbnails/scripts/static_wallpaper.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/static_wallpaper.png",
       "gallery": []
@@ -430,6 +451,7 @@
       "description": "Syncthing is a peer-to-peer file synchronization tool. On MiSTer, it can be used to sync folders such as saves or other files with your PC, NAS, or other devices.",
       "visibility": "public",
       "sort_order": 100,
+      "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts",
       "thumbnail": "assets/thumbnails/scripts/syncthing.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/syncthing.png",
       "gallery": []
@@ -446,6 +468,7 @@
       "description": "RA Viewer shows your RetroAchievements progress directly on the MiSTer, including achievement information for your configured RetroAchievements account.",
       "visibility": "public",
       "sort_order": 110,
+      "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts",
       "thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/ra_viewer.png",
       "gallery": []
@@ -462,6 +485,7 @@
       "description": "MiSTerFin is a Jellyfin media client for MiSTer. It runs as ARM software from the Scripts menu on the standard menu core, draws through the regular MiSTer framebuffer, and plays media transcoded by Jellyfin through its bundled mplayer-arm.",
       "visibility": "public",
       "sort_order": 120,
+      "project_url": "https://github.com/puddingstudio/MiSTerFin",
       "thumbnail": "assets/thumbnails/scripts/misterfin.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/misterfin.png",
       "gallery": []
@@ -478,6 +502,7 @@
       "description": "Adds user profiles to the MiSTer FPGA Project.",
       "visibility": "public",
       "sort_order": 130,
+      "project_url": "https://github.com/BertSVG/MiSTer_FPGA_User_Profiles",
       "thumbnail": "assets/thumbnails/scripts/user_profiles.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/user_profiles.png",
       "gallery": []
@@ -494,6 +519,7 @@
       "description": "Launch a GUI for user defined Game Collections.",
       "visibility": "public",
       "sort_order": 140,
+      "project_url": "https://github.com/Anime0t4ku/MiSTer-CollectionLauncher",
       "thumbnail": "assets/thumbnails/scripts/collection_launcher.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/collection_launcher.png",
       "gallery": []
@@ -510,6 +536,7 @@
       "description": "A Music Player with lossless audio formats support for MiSTer FPGA.",
       "visibility": "public",
       "sort_order": 150,
+      "project_url": "https://github.com/Anime0t4ku/MiSTer_Hi-Fi",
       "thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
       "gallery": []
@@ -526,6 +553,7 @@
       "description": "A collection of MiSTer menu wallpapers by Ranny Snice, available in both 16:9 and 4:3 versions. Use the matching pack for your display setup, or install both if you switch between aspect ratios.",
       "visibility": "public",
       "sort_order": 10,
+      "project_url": "https://github.com/Ranny-Snice/Ranny-Snice-Wallpapers",
       "thumbnail": "assets/thumbnails/wallpaper_packs/ranny_snice_wallpapers.png",
       "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/ranny_snice_wallpapers.png",
       "gallery": []
@@ -542,6 +570,7 @@
       "description": "Wallpapers created during PCN livestreams based on audience requests. These are made under time limits and sometimes with extra challenge conditions, giving each wallpaper its own unique style and context.",
       "visibility": "public",
       "sort_order": 20,
+      "project_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
       "thumbnail": "assets/thumbnails/wallpaper_packs/pcn_challenge_wallpapers.png",
       "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/pcn_challenge_wallpapers.png",
       "gallery": []
@@ -558,6 +587,7 @@
       "description": "A wallpaper pack created for PCN Premium members on YouTube and Patreon. These wallpapers are made as exclusive extras for PCN supporters.",
       "visibility": "public",
       "sort_order": 30,
+      "project_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
       "thumbnail": "assets/thumbnails/wallpaper_packs/pcn_premium_wallpapers.png",
       "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/pcn_premium_wallpapers.png",
       "gallery": []
@@ -574,6 +604,7 @@
       "description": "A personal wallpaper pack by Anime0t4ku, made without fixed constraints. Themes can vary across anime, movies, games, systems, comics, and more.",
       "visibility": "public",
       "sort_order": 40,
+      "project_url": "https://github.com/Anime0t4ku/MiSTerWallpapers",
       "thumbnail": "assets/thumbnails/wallpaper_packs/anime0t4ku_wallpapers.png",
       "resolved_thumbnail": "assets/thumbnails/wallpaper_packs/anime0t4ku_wallpapers.png",
       "gallery": []

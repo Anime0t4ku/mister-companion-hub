@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "migrate_sd helps migrate an existing MiSTer SD card setup to another SD card, such as when moving to a larger card.",
   "visibility": "public",
-  "sort_order": 30
+  "sort_order": 30,
+  "project_url": "https://github.com/Natrox/MiSTer_Utils_Natrox"
 }

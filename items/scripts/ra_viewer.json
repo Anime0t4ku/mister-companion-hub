@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "RA Viewer shows your RetroAchievements progress directly on the MiSTer, including achievement information for your configured RetroAchievements account.",
   "visibility": "public",
-  "sort_order": 110
+  "sort_order": 110,
+  "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts"
 }

@@ -96,6 +96,10 @@
       "type": "string",
       "minLength": 1
     },
+    "project_url": {
+      "type": "string",
+      "minLength": 1
+    },
     "system": {
       "type": "string",
       "minLength": 1

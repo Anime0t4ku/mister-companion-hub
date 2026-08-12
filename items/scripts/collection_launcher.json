@@ -9,5 +9,6 @@
   "date_added": "2026-08-04T00:00:00Z",
   "description": "Launch a GUI for user defined Game Collections.",
   "visibility": "public",
-  "sort_order": 140
+  "sort_order": 140,
+  "project_url": "https://github.com/Anime0t4ku/MiSTer-CollectionLauncher"
 }

@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "Sonic Mania MiSTer lets your MiSTer run Sonic Mania using the MiSTer port, with support for the required Data.rsdk game file.",
   "visibility": "public",
-  "sort_order": 20
+  "sort_order": 20,
+  "project_url": "https://github.com/kimchiman52/sonic-mania-mister"
 }

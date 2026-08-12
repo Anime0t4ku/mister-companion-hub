@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "Syncthing is a peer-to-peer file synchronization tool. On MiSTer, it can be used to sync folders such as saves or other files with your PC, NAS, or other devices.",
   "visibility": "public",
-  "sort_order": 100
+  "sort_order": 100,
+  "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts"
 }

@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "3S-ARM brings Street Fighter III: 3rd Strike support to MiSTer through the 3S-ARM core and its required game resources.",
   "visibility": "public",
-  "sort_order": 10
+  "sort_order": 10,
+  "project_url": "https://github.com/kimchiman52/3s-mister-arm"
 }

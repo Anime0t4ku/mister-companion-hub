@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "Zaparoo Frontend is a MiSTer frontend that provides a controller-friendly interface for browsing and launching your games, media, and other MiSTer content, with artwork support.\n\nMake sure you are using the latest version of Zaparoo before installing or updating Zaparoo Frontend.",
   "visibility": "public",
-  "sort_order": 30
+  "sort_order": 30,
+  "project_url": "https://github.com/ZaparooProject/zaparoo-frontend"
 }

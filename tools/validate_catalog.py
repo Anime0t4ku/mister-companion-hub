@@ -20,7 +20,7 @@ ALLOWED_HANDLERS = {
 
 BASE_ALLOWED_ITEM_FIELDS = {
     "schema_version", "id", "category", "type", "handler", "name", "author",
-    "version", "release_date", "date_added", "description", "tags", "visibility", "sort_order",
+    "version", "release_date", "date_added", "description", "tags", "visibility", "sort_order", "project_url",
 }
 ROM_ALLOWED_FIELDS = {
     "official_url", "system", "genres", "default_install_path", "allow_custom_install_path", "download",
@@ -92,6 +92,9 @@ def validate_item(path: Path, categories):
             raise ValueError(f"{path}: release_date must be YYYY-MM-DD") from exc
     if "version" in item:
         require(isinstance(item["version"], str) and item["version"].strip(), f"{path}: version must be a non-empty string when present")
+    if "project_url" in item:
+        project_url = item["project_url"]
+        require(isinstance(project_url, str) and project_url.startswith(("https://", "http://")), f"{path}: project_url must be an HTTP(S) URL")
 
     if item["type"] == "rom":
         for key in ["version", "official_url", "system", "genres", "default_install_path", "allow_custom_install_path", "download"]:

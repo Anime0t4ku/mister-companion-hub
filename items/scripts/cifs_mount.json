@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "cifs_mount connects your MiSTer to a shared network folder, such as a NAS or PC share, so games and files can be accessed over your local network.",
   "visibility": "public",
-  "sort_order": 40
+  "sort_order": 40,
+  "project_url": "https://github.com/MiSTer-devel/Scripts_MiSTer"
 }

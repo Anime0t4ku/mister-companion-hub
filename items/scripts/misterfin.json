@@ -9,5 +9,6 @@
   "date_added": "2026-07-30T00:00:00Z",
   "description": "MiSTerFin is a Jellyfin media client for MiSTer. It runs as ARM software from the Scripts menu on the standard menu core, draws through the regular MiSTer framebuffer, and plays media transcoded by Jellyfin through its bundled mplayer-arm.",
   "visibility": "public",
-  "sort_order": 120
+  "sort_order": 120,
+  "project_url": "https://github.com/puddingstudio/MiSTerFin"
 }

@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "Wallpapers created during PCN livestreams based on audience requests. These are made under time limits and sometimes with extra challenge conditions, giving each wallpaper its own unique style and context.",
   "visibility": "public",
-  "sort_order": 20
+  "sort_order": 20,
+  "project_url": "https://github.com/Anime0t4ku/MiSTerWallpapers"
 }

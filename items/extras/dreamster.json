@@ -9,5 +9,6 @@
   "date_added": "2026-07-18T00:00:00Z",
   "description": "DreamSTer is an emulation core that uses partial FPGA output to run Dreamcast software on MiSTer. It is currently in pre-release.",
   "visibility": "public",
-  "sort_order": 40
+  "sort_order": 40,
+  "project_url": "https://github.com/skmp/DreamSTer"
 }

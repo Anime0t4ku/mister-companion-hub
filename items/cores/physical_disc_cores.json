@@ -9,5 +9,6 @@
   "date_added": "2026-07-21T00:00:00Z",
   "description": "Adds physical CD support to selected MiSTer cores using compatible external USB CD/DVD drives. Compatibility and performance may vary depending on the drive.",
   "visibility": "public",
-  "sort_order": 22
+  "sort_order": 22,
+  "project_url": "https://github.com/Anime0t4ku/Main_MiSTer_Physical_Disc"
 }

@@ -9,5 +9,6 @@
   "date_added": "2026-06-23T00:00:00Z",
   "description": "static_wallpaper lets your MiSTer use a fixed menu wallpaper instead of the default changing wallpaper behavior.",
   "visibility": "public",
-  "sort_order": 90
+  "sort_order": 90,
+  "project_url": "https://github.com/Anime0t4ku/0t4ku-mister-scripts"
 }

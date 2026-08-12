@@ -130,6 +130,7 @@ def main():
                 "type": item.get("type"),
                 "name": item.get("name"),
                 "author": item.get("author"),
+                "project_url": item.get("project_url"),
                 "date_added": item.get("date_added"),
                 "thumbnail": item.get("thumbnail"),
                 "resolved_thumbnail": item.get("resolved_thumbnail"),
