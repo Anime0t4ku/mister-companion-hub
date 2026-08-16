@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.12",
-  "updated": "2026-08-12",
+  "catalog_version": "2026.08.16",
+  "updated": "2026-08-16",
   "categories": [
     {
       "id": "scripts",
       "name": "Scripts",
       "description": "Add extra functionality to your standard MiSTer FPGA setup through useful scripts and utilities.",
       "sort_order": 10,
-      "count": 15
+      "count": 16
     },
     {
       "id": "cores",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.12",
-  "updated": "2026-08-12",
+  "catalog_version": "2026.08.16",
+  "updated": "2026-08-16",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -366,6 +366,19 @@
       "resolved_thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
       "visibility": "public",
       "sort_order": 150
+    },
+    {
+      "id": "disc_tools",
+      "category": "scripts",
+      "type": "script",
+      "name": "Disc Tools",
+      "author": "Anime0t4ku",
+      "project_url": "https://github.com/Anime0t4ku/MiSTer-Disc-Tools",
+      "date_added": "2026-08-16T00:00:00Z",
+      "thumbnail": "assets/thumbnails/scripts/disc_tools.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/disc_tools.png",
+      "visibility": "public",
+      "sort_order": 160
     },
     {
       "id": "ranny_snice_wallpapers",

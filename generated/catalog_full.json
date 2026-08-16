@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.12",
+  "catalog_version": "2026.08.16",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-08-12",
+  "updated": "2026-08-16",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -539,6 +539,23 @@
       "project_url": "https://github.com/Anime0t4ku/MiSTer_Hi-Fi",
       "thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/mister_hifi.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "disc_tools",
+      "category": "scripts",
+      "type": "script",
+      "handler": "disc_tools",
+      "name": "Disc Tools",
+      "author": "Anime0t4ku",
+      "date_added": "2026-08-16T00:00:00Z",
+      "description": "Rip and burn physical discs directly on MiSTer FPGA.",
+      "visibility": "public",
+      "sort_order": 160,
+      "project_url": "https://github.com/Anime0t4ku/MiSTer-Disc-Tools",
+      "thumbnail": "assets/thumbnails/scripts/disc_tools.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/disc_tools.png",
       "gallery": []
     },
     {
