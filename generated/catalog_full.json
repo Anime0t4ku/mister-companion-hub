@@ -503,8 +503,8 @@
       "visibility": "public",
       "sort_order": 125,
       "project_url": "https://github.com/chipster6502/MiSTer_monitor",
-      "thumbnail": null,
-      "resolved_thumbnail": "assets/defaults/scripts.png",
+      "thumbnail": "assets/thumbnails/scripts/mister_monitor.png",
+      "resolved_thumbnail": "assets/thumbnails/scripts/mister_monitor.png",
       "gallery": []
     },
     {
