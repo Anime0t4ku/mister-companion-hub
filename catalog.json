@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.16",
+  "catalog_version": "2026.08.22",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-08-16",
+  "updated": "2026-08-22",
   "minimum_app_version": "6.0.0",
   "categories_file": "categories.json",
   "items": [
@@ -28,6 +28,7 @@
     "items/scripts/ftp_save_sync.json",
     "items/scripts/migrate_sd.json",
     "items/scripts/mister_hifi.json",
+    "items/scripts/mister_monitor.json",
     "items/scripts/misterfin.json",
     "items/scripts/ra_viewer.json",
     "items/scripts/static_wallpaper.json",

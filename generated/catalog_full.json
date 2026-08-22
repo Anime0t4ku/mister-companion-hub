@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.16",
+  "catalog_version": "2026.08.22",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-08-16",
+  "updated": "2026-08-22",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -488,6 +488,23 @@
       "project_url": "https://github.com/puddingstudio/MiSTerFin",
       "thumbnail": "assets/thumbnails/scripts/misterfin.png",
       "resolved_thumbnail": "assets/thumbnails/scripts/misterfin.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "mister_monitor",
+      "category": "scripts",
+      "type": "script",
+      "handler": "mister_monitor",
+      "name": "MiSTer Monitor",
+      "author": "chipster6502",
+      "date_added": "2026-08-22T00:00:00Z",
+      "description": "Displays real-time game artwork, game information, system statistics, storage status, and network details from MiSTer on supported ESP32-based screens. The display firmware is installed separately for the supported hardware.",
+      "visibility": "public",
+      "sort_order": 125,
+      "project_url": "https://github.com/chipster6502/MiSTer_monitor",
+      "thumbnail": null,
+      "resolved_thumbnail": "assets/defaults/scripts.png",
       "gallery": []
     },
     {
