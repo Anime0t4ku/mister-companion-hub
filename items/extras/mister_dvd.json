@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "mister_dvd",
+  "category": "extras",
+  "type": "extra",
+  "handler": "mister_dvd",
+  "name": "MiSTer DVD",
+  "author": "owenb321",
+  "date_added": "2026-08-30T00:00:00Z",
+  "description": "MiSTer DVD is an FPGA DVD-Video player core built on MiSTer_MPEG2 and Koen De Vleeschauwer's MPEG2FPGA hardware decoder. DVD video, disc menus, navigation, subtitles, and audio are handled in FPGA fabric rather than by an ARM-side player.",
+  "visibility": "public",
+  "sort_order": 170,
+  "project_url": "https://github.com/owenb321/MiSTer_DVD"
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.22",
-  "updated": "2026-08-22",
+  "catalog_version": "2026.08.30",
+  "updated": "2026-08-30",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -158,6 +158,19 @@
       "resolved_thumbnail": "assets/thumbnails/extras/solarus.png",
       "visibility": "public",
       "sort_order": 160
+    },
+    {
+      "id": "mister_dvd",
+      "category": "extras",
+      "type": "extra",
+      "name": "MiSTer DVD",
+      "author": "owenb321",
+      "project_url": "https://github.com/owenb321/MiSTer_DVD",
+      "date_added": "2026-08-30T00:00:00Z",
+      "thumbnail": "assets/thumbnails/extras/mister_dvd.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/mister_dvd.png",
+      "visibility": "public",
+      "sort_order": 170
     },
     {
       "id": "8bit_table_tennis",

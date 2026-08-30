@@ -14,7 +14,7 @@ ALLOWED_HANDLERS = {
     "update_all", "zaparoo", "migrate_sd", "cifs_mount", "auto_time", "cd_game_organizer",
     "dav_browser", "ftp_save_sync", "static_wallpaper", "syncthing", "ra_viewer",
     "mms2_gb_core", "paprium_megadrive", "megavgmdrive", "physical_disc_cores", "retroachievement_cores",
-    "3s_arm", "sonic_mania_mister", "mister_quake", "mister_duke3d", "dreamster", "zaparoo_frontend", "misterfin", "mister_monitor", "user_profiles", "collection_launcher", "mister_hifi", "disc_tools", "solarus", "wallpaper_pack", "rom_install",
+    "3s_arm", "sonic_mania_mister", "mister_quake", "mister_duke3d", "dreamster", "zaparoo_frontend", "misterfin", "mister_monitor", "user_profiles", "collection_launcher", "mister_hifi", "disc_tools", "solarus", "mister_dvd", "wallpaper_pack", "rom_install",
 
 }
 

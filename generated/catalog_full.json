@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.22",
+  "catalog_version": "2026.08.30",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-08-22",
+  "updated": "2026-08-30",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -250,6 +250,23 @@
       "project_url": "https://github.com/gmcnaught/solarus-mister",
       "thumbnail": "assets/thumbnails/extras/solarus.png",
       "resolved_thumbnail": "assets/thumbnails/extras/solarus.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "mister_dvd",
+      "category": "extras",
+      "type": "extra",
+      "handler": "mister_dvd",
+      "name": "MiSTer DVD",
+      "author": "owenb321",
+      "date_added": "2026-08-30T00:00:00Z",
+      "description": "MiSTer DVD is an FPGA DVD-Video player core built on MiSTer_MPEG2 and Koen De Vleeschauwer's MPEG2FPGA hardware decoder. DVD video, disc menus, navigation, subtitles, and audio are handled in FPGA fabric rather than by an ARM-side player.",
+      "visibility": "public",
+      "sort_order": 170,
+      "project_url": "https://github.com/owenb321/MiSTer_DVD",
+      "thumbnail": "assets/thumbnails/extras/mister_dvd.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/mister_dvd.png",
       "gallery": []
     },
     {
