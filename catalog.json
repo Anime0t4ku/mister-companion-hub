@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.30",
+  "catalog_version": "2026.09.01",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-08-30",
+  "updated": "2026-09-01",
   "minimum_app_version": "6.0.0",
   "categories_file": "categories.json",
   "items": [
@@ -13,6 +13,7 @@
     "items/cores/retroachievement_cores.json",
     "items/extras/3s_arm.json",
     "items/extras/dreamster.json",
+    "items/extras/dvd_player.json",
     "items/extras/mister_duke3d.json",
     "items/extras/mister_dvd.json",
     "items/extras/mister_quake.json",

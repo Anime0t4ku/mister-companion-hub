@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.30",
-  "updated": "2026-08-30",
+  "catalog_version": "2026.09.01",
+  "updated": "2026-09-01",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -171,6 +171,19 @@
       "resolved_thumbnail": "assets/thumbnails/extras/mister_dvd.png",
       "visibility": "public",
       "sort_order": 170
+    },
+    {
+      "id": "dvd_player",
+      "category": "extras",
+      "type": "extra",
+      "name": "DVD-Player",
+      "author": "joedaniels198512-gif",
+      "project_url": "https://github.com/joedaniels198512-gif/dvd-core",
+      "date_added": "2026-09-01T00:00:00Z",
+      "thumbnail": "assets/thumbnails/extras/dvd_player.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/dvd_player.png",
+      "visibility": "public",
+      "sort_order": 180
     },
     {
       "id": "8bit_table_tennis",

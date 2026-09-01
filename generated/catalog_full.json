@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.08.30",
+  "catalog_version": "2026.09.01",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-08-30",
+  "updated": "2026-09-01",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -267,6 +267,23 @@
       "project_url": "https://github.com/owenb321/MiSTer_DVD",
       "thumbnail": "assets/thumbnails/extras/mister_dvd.png",
       "resolved_thumbnail": "assets/thumbnails/extras/mister_dvd.png",
+      "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "dvd_player",
+      "category": "extras",
+      "type": "extra",
+      "handler": "dvd_player",
+      "name": "DVD-Player",
+      "author": "joedaniels198512-gif",
+      "date_added": "2026-09-01T00:00:00Z",
+      "description": "DVD-Player is a hybrid DVD-Video core for MiSTer and SuperStation One, combining an FPGA companion core with ARM-side DVD playback and navigation software. It supports physical DVDs and DVD-Video ISOs, authored menus, PAL and NTSC, subtitles, audio-track switching, and HDMI or CRT output.",
+      "visibility": "public",
+      "sort_order": 180,
+      "project_url": "https://github.com/joedaniels198512-gif/dvd-core",
+      "thumbnail": "assets/thumbnails/extras/dvd_player.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/dvd_player.png",
       "gallery": []
     },
     {

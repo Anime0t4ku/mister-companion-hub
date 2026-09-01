@@ -1,0 +1,14 @@
+{
+    "schema_version": 1,
+    "id": "dvd_player",
+    "category": "extras",
+    "type": "extra",
+    "handler": "dvd_player",
+    "name": "DVD-Player",
+    "author": "joedaniels198512-gif",
+    "date_added": "2026-09-01T00:00:00Z",
+    "description": "DVD-Player is a hybrid DVD-Video core for MiSTer and SuperStation One, combining an FPGA companion core with ARM-side DVD playback and navigation software. It supports physical DVDs and DVD-Video ISOs, authored menus, PAL and NTSC, subtitles, audio-track switching, and HDMI or CRT output.",
+    "visibility": "public",
+    "sort_order": 180,
+    "project_url": "https://github.com/joedaniels198512-gif/dvd-core"
+}
