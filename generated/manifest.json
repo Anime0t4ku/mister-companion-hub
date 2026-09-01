@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T00:00:00Z",
+  "generated_at": "2026-09-01T14:31:12.651242Z",
   "catalog_version": "2026.09.01",
   "files": [
     {
@@ -22,6 +22,11 @@
       "path": "generated/known_handlers.json",
       "sha256": "e4e0fc60f83e7dc0bb9ed73e9e976fcd1478f74e3778e944d7af1eda93f66902",
       "size": 715
+    },
+    {
+      "path": "generated/manifest.json",
+      "sha256": "ed0f2fe003050ec05d502d4a4f8ad4f40e5263093d8c3cbe9bf5125a1504bac7",
+      "size": 922
     },
     {
       "path": "catalog.json",
