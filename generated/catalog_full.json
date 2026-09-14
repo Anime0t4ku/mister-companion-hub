@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.09.01",
+  "catalog_version": "2026.09.14",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-09-01",
+  "updated": "2026-09-14",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -285,6 +285,27 @@
       "thumbnail": "assets/thumbnails/extras/dvd_player.png",
       "resolved_thumbnail": "assets/thumbnails/extras/dvd_player.png",
       "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "misterzine_frontend",
+      "category": "extras",
+      "type": "extra",
+      "handler": "misterzine_frontend",
+      "name": "MiSTerZine Frontend",
+      "author": "Matija Erceg",
+      "date_added": "2026-09-15T00:00:00Z",
+      "description": "Browse MiSTer cores and arcade releases directly on your MiSTer, with release tracking, screenshots, installed/update status, and game launching.",
+      "visibility": "public",
+      "sort_order": 190,
+      "project_url": "https://github.com/matijaerceg/misterzine-on-device",
+      "thumbnail": "assets/thumbnails/extras/misterzine_frontend.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/misterzine_frontend.png",
+      "gallery": [
+        "assets/gallery/extras/misterzine_frontend_01.png",
+        "assets/gallery/extras/misterzine_frontend_02.png",
+        "assets/gallery/extras/misterzine_frontend_03.png"
+      ]
     },
     {
       "schema_version": 1,

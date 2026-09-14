@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "misterzine_frontend",
+  "category": "extras",
+  "type": "extra",
+  "handler": "misterzine_frontend",
+  "name": "MiSTerZine Frontend",
+  "author": "Matija Erceg",
+  "date_added": "2026-09-15T00:00:00Z",
+  "description": "Browse MiSTer cores and arcade releases directly on your MiSTer, with release tracking, screenshots, installed/update status, and game launching.",
+  "visibility": "public",
+  "sort_order": 190,
+  "project_url": "https://github.com/matijaerceg/misterzine-on-device"
+}

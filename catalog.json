@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.09.01",
+  "catalog_version": "2026.09.14",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-09-01",
+  "updated": "2026-09-14",
   "minimum_app_version": "6.0.0",
   "categories_file": "categories.json",
   "items": [
@@ -17,6 +17,7 @@
     "items/extras/mister_duke3d.json",
     "items/extras/mister_dvd.json",
     "items/extras/mister_quake.json",
+    "items/extras/misterzine_frontend.json",
     "items/extras/solarus.json",
     "items/extras/sonic_mania_mister.json",
     "items/extras/zaparoo_frontend.json",

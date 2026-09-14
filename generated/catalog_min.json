@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.09.01",
-  "updated": "2026-09-01",
+  "catalog_version": "2026.09.14",
+  "updated": "2026-09-14",
   "items": [
     {
       "id": "mms2_gb_core",
@@ -184,6 +184,19 @@
       "resolved_thumbnail": "assets/thumbnails/extras/dvd_player.png",
       "visibility": "public",
       "sort_order": 180
+    },
+    {
+      "id": "misterzine_frontend",
+      "category": "extras",
+      "type": "extra",
+      "name": "MiSTerZine Frontend",
+      "author": "Matija Erceg",
+      "project_url": "https://github.com/matijaerceg/misterzine-on-device",
+      "date_added": "2026-09-15T00:00:00Z",
+      "thumbnail": "assets/thumbnails/extras/misterzine_frontend.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/misterzine_frontend.png",
+      "visibility": "public",
+      "sort_order": 190
     },
     {
       "id": "8bit_table_tennis",
