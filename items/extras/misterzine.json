@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "misterzine",
+  "category": "extras",
+  "type": "extra",
+  "handler": "misterzine",
+  "name": "MisterZine Frontend",
+  "author": "Matija Erceg",
+  "date_added": "2026-09-14T00:00:00Z",
+  "description": "Browse new and updated MiSTer releases, see what's on your card, and launch a game directly from your MiSTer menu. MisterZine brings the misterzine.fyi release tracker to your display, with screenshots, favorites, filters, and keyboard search. Supports horizontal and rotated CRT layouts.\n\nWhen installing to an SD card, boot MiSTer and run MisterZine-Setup from Scripts once to add the main-menu entry. Updates arrive through Downloader or Update All. Uninstall keeps favorites, preferences, and cached pictures.",
+  "visibility": "public",
+  "sort_order": 190,
+  "project_url": "https://github.com/matijaerceg/misterzine-on-device"
+}

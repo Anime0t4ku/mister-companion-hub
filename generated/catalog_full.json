@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "catalog_version": "2026.09.01",
+  "catalog_version": "2026.09.14",
   "name": "MiSTer Companion Hub",
-  "updated": "2026-09-01",
+  "updated": "2026-09-14",
   "minimum_app_version": "6.0.0",
   "categories": [
     {
@@ -285,6 +285,27 @@
       "thumbnail": "assets/thumbnails/extras/dvd_player.png",
       "resolved_thumbnail": "assets/thumbnails/extras/dvd_player.png",
       "gallery": []
+    },
+    {
+      "schema_version": 1,
+      "id": "misterzine",
+      "category": "extras",
+      "type": "extra",
+      "handler": "misterzine",
+      "name": "MisterZine Frontend",
+      "author": "Matija Erceg",
+      "date_added": "2026-09-14T00:00:00Z",
+      "description": "Browse new and updated MiSTer releases, see what's on your card, and launch a game directly from your MiSTer menu. MisterZine brings the misterzine.fyi release tracker to your display, with screenshots, favorites, filters, and keyboard search. Supports horizontal and rotated CRT layouts.\n\nWhen installing to an SD card, boot MiSTer and run MisterZine-Setup from Scripts once to add the main-menu entry. Updates arrive through Downloader or Update All. Uninstall keeps favorites, preferences, and cached pictures.",
+      "visibility": "public",
+      "sort_order": 190,
+      "project_url": "https://github.com/matijaerceg/misterzine-on-device",
+      "thumbnail": "assets/thumbnails/extras/misterzine.png",
+      "resolved_thumbnail": "assets/thumbnails/extras/misterzine.png",
+      "gallery": [
+        "assets/gallery/extras/misterzine_01.png",
+        "assets/gallery/extras/misterzine_02.png",
+        "assets/gallery/extras/misterzine_03.png"
+      ]
     },
     {
       "schema_version": 1,
